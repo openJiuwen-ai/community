@@ -63,7 +63,17 @@ openJiuwen有权根据相关规范修改/删除开发者贡献的内容，直至
         ```
 
     2. **复制远程仓库到本地**
-        远程仓库地址：https://gitcode.com/openJiuwen
+        - 您可以在仓库页面内复制远程仓库的拷贝地址，得到`$remote\_link`：
+
+            **图 1**  复制远程仓库(以community仓为例)
+
+            ![image.png](https://raw.gitcode.com/user-images/assets/8574432/7e64c05c-ccd8-4a25-ad1d-bfae2b1476ef/image.png 'image.png')
+
+        - 在本地电脑执行拷贝命令：
+
+            ```
+            git clone $remote_link
+            ```
 
 ### 代码提交(git clone场景)
 

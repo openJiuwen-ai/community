@@ -4,5 +4,4 @@
 - [语言风格](./openJiuwen-style-guide-language-style.md)
 - [文档结构](./openjiuwen-style-guide-document-structure.md)
 - [内容元素](./openJiuwen-style-guide-content-elements.md)
-- [视觉规范](openJiuwen-view-design-style-guide.md)
 

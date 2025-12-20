@@ -11,17 +11,9 @@
 
 # openJiuwen邮件列表
 
-| 邮箱                      | 简述                        | 说明                                                   | 订阅                                                         |
-| :------------------------ | :-------------------------- | :----------------------------------------------------- | ------------------------------------------------------------ |
-| contact@openjiuwen.ai     | 公用邮箱                    | 社区公共邮箱，日常交流使用                             |                                                              |
-| cla@openjiuwen.ai         | CLA相关                     | 用于发送cla签署邮件                                    |                                                              |
-| legal@openjiuwen.ai       | 法务工作小组邮件列表        | 任何社区开发者可反馈合规等法务相关问题到此邮箱         |                                                              |
-| dev@lists.openjiuwen.ai   | 开发邮件列表                | 社区开发讨论邮件，任何社区开发相关话题都可以在邮件讨论 | [订阅]( https://mailweb.openjuwen.ai/mailman3/lists/dev.openjiuwen.ai/ ) |
-| cicd@lists.openjiuwen.ai  | CICD邮件列表                | CICD等构建工程邮件列表，任何开发者可订阅               | [订阅](https://mailweb.openjuwen.ai/mailman3/lists/cicd.openjiuwen.ai/) |
-| tc@lists.openjiuwen.ai    | 技术委员会团队邮件列表      | 社区整体技术治理与管理，章程设计等                     | [订阅](https://mailweb.openjuwen.ai/mailman3/lists/tc.openjiuwen.ai/) |
-| rm@lists.openjiuwen.ai    | release manager团队邮件列表 | 社区版本发布管理                                       | [订阅](https://mailweb.openjuwen.ai/mailman3/lists/rm.openjiuwen.ai/) |
-| qa@lists.openjiuwen.ai    | 核心团队邮件列表            | 社区测试、质量团队                                     | [订阅](https://mailweb.openjuwen.ai/mailman3/lists/qa.openjiuwen.ai/) |
-| infra@lists.openjiuwen.ai | 基础工程团队邮件列表        | 社区基础设施工程维护团队                               | [订阅](https://mailweb.openjuwen.ai/mailman3/lists/infra.openjiuwen.ai/) |
-| scy@lists.openjiuwen.ai   | 安全团队邮件列表            | 安全技术领域，订阅和反馈安全问题                       | [订阅](https://mailweb.openjuwen.ai/mailman3/lists/scy.openjiuwen.ai/) |
-| docs@lists.openjiuwen.ai  | 文档团队邮件列表            | 文档体验优化团队                                       | [订阅](https://mailweb.openjuwen.ai/mailman3/lists/docs.openjiuwen.ai/) |
+| 邮箱                       | 简述                        | 说明                                                   | 订阅                                                         |
+| :------------------------- | :-------------------------- | :----------------------------------------------------- | ------------------------------------------------------------ |
+| contact@openjiuwen.com     | 公用邮箱                    | 社区公共邮箱，日常交流使用                             |                                                              |
+| cla@openjiuwen.com         | CLA相关                     | 用于发送cla签署邮件                                    |                                                              |
+| legal@openjiuwen.com       | 法务工作小组邮件列表        | 任何社区开发者可反馈合规等法务相关问题到此邮箱         |                                                              |
 

@@ -19,36 +19,15 @@ openJiuwen 为原生支持多智能体协同和智能体自演进而设计，系
 
 # 如何参与贡献
 
-* 行为准则
-
-	openJiuwen是一个开源社区，它完全依赖于社区提供友好的开发和协作环境，在参与社区贡献之前，请先阅读并遵守[openJiuwen社区行为准则](https://gitcode.com/openjiuwen/community/tree/master/openJiuwen社区行为准则.md)。
-
-* 签署开发者原创声明
-
-    您必须首先签署完成openJiuwen社区“开发者贡献协议”（CLA），才能参与openJiuwen社区贡献。
-
-	点击[这里](https://clasign.osinfra.cn/sign/68ee0908765718ad08bab9ee )签署，详细流程请参考[签署指南](https://gitcode.com/openjiuwen/community/tree/master/cla/cla使用指南.md)。
-
-* 找到感兴趣的SIG
-
-	如何参与SIG（Special Interest Group）特别兴趣小组，请参考[SIG治理章程](https://gitcode.com/openJiuwen/Sigs)。
-
-* 开始贡献
-
-	* 代码贡献
-		如何贡献代码，请参考[贡献代码](https://gitcode.com/openjiuwen/community/tree/master/CONTRINUTING_zh.md)。
-
-	* 非代码贡献
-
-		* 文档贡献：如何贡献文档，请参考[贡献文档](https://gitcode.com/openjiuwen/docs/tree/master/CONTRINUTING_zh.md)。
-
-		* 贡献合规类问题：若发现合规类问题，请参考[开源合规类问题管理](https://gitcode.com/openjiuwen/community/tree/master/contribute/开源合规类问题管理.md)。
-
-		* 贡献安全类问题：若发现安全/漏洞问题，请参考[网络安全事件管理流程](https://gitcode.com/openjiuwen/community/tree/master/contribute/网络安全事件管理.md)及[社区漏洞治理&披露](https://gitcode.com/openjiuwen/community/tree/master/contribute/社区安全漏洞治理及披露.md)进行处理。
+加入方式参见：https://www.openjiuwen.com/contribute
 
 # 社区沟通与交流
 
-如果您在使用openJiuwen过程中遇到问题，请加入邮件群组参与讨论，这是参与openJiuwen社区讨论的正确方式，请参考[订阅邮件列表](https://gitcode.com/openJiuwen/community/blob/master/maillist_zh.md)。
+如果您在使用openJiuwen过程中遇到问题，可以通过如下渠道联系我们。
+
+网站： https://www.openjiuwen.com
+
+邮箱： contact@openjiuwen.com
 
 <!-- 左右并排 -->
 <div style="display:flex; align-items: flex-start; gap: 50px;">

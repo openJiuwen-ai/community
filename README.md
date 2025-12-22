@@ -159,6 +159,7 @@ openJiuwen 采用 [Apache License 2.0 (Apache-2.0)](https://www.apache.org/licen
 ```
 
 注意事项：
+
 - 提交信息采用英文格式。
 - 通过`git rebase`将多次零散提交合并为单个原子性提交，确保主干提交历史清晰可追溯。
 
@@ -173,19 +174,19 @@ openJiuwen 采用 [Apache License 2.0 (Apache-2.0)](https://www.apache.org/licen
 - `ci:` CI 配置文件和脚本的更改
 - `chore:` 对构建过程或辅助工具和库的更改
 
-**范围（scope）：** 可选，表示影响的范围，如 `models`、`agent`、`studio`、`core` 等。
 
+**范围（scope）：** 可选，表示影响的范围，如 `model`、`agent`、`workflow` 等。
 
 
 **示例：**
 ```bash
-feat(core): add user authentication module
-fix(studio): resolve button click event issue
+feat(model): add user authentication module
+fix(front): resolve button click event issue
 docs(guide): update contribution guidelines
-style(core): adjust code formatting to match style guide
-refactor(studio): simplify component structure
-perf(core): optimize data loading performance
-test(core): add unit tests for API endpoints
+style(agent): adjust code formatting to match style guide
+refactor(workflow): simplify component structure
+perf(runtime): optimize runtime performance
+test(endpoint): add unit tests for API endpoints
 ci: configure GitCode CI pipeline
 chore: update dependencies to latest versions
 ```
@@ -203,7 +204,7 @@ This feature includes:
 - Environment variable support
 - Settings validation logic
 
-Refs: #I12345
+Refs: #12345
 ```
 
 ---

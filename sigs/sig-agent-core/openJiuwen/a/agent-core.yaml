@@ -1,0 +1,10 @@
+name: agent-core
+description: Full-Stack SDK for AI Agent Development, Execution, Optimization and Evolution
+branches:
+- name: develop
+  type: protected
+- name: main
+  type: protected
+- name: feature/nl2agent
+  type: protected
+type: public

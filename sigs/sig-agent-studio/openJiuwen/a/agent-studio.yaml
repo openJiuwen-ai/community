@@ -1,0 +1,8 @@
+name: agent-studio
+description: Zero-code & Low-code Visual Development and Workflow Orchestration for Agents, as well as Management of Various Resources such as Models, Knowledge Bases and Plugins
+branches:
+- name: develop
+  type: protected
+- name: main
+  type: protected
+type: public

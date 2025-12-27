@@ -1,0 +1,27 @@
+name: sig-rm
+description: This SIG group is dedicated to version management and requirement management.
+mailing_list: acc@openJiuwen.org
+meeting_url: NA
+mature_level: startup
+maintainers:
+- atomgit_id: ryanw22
+  name: wanghongbo
+  orgnization: Huawei
+  email: wanghongbo7@huawei.com
+- atomgit_id: gcw_p3lqgsYT
+  name: 张衡
+  orgnization: Huawei
+  email: zhangheng2@huawei.com
+- atomgit_id: z00430070
+  name: zhuxushen
+  orgnization: Huawei
+  email: zhuxushen@huawei.com
+- atomgit_id: huguangzheng
+  name: huguangzheng
+  orgnization: Huawei
+  email: huguangzheng1@huawei.com
+- atomgit_id: shiruifeng1116
+  name: shiruifeng
+  orgnization: Huawei
+  email: shiruifeng@huawei.com
+

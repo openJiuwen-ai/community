@@ -1,0 +1,8 @@
+name: agent-protocol
+description: openJiuwen agent-protocol provides implementations of agent communication protocols, including a C++ SDK for the MCP and A2A protocols.
+branches:
+- name: develop
+  type: protected
+- name: main
+  type: protected
+type: public

@@ -1,0 +1,27 @@
+name: sig-agent-protocol
+description: The sig-agent-protocol team is responsible for manage agent-protocol
+mailing_list: NA
+meeting_url: NA
+mature_level: startup
+maintainers:
+- atomgit_id: YeesunShao
+  name: YeesunShao
+  orgnization: Huawei
+  email: shaoyiyang@huawei.com
+- atomgit_id: zhang-xinyu-huawei
+  name: 张鑫宇
+  orgnization: Huawei
+  email: zhangxinyu35@huawei.com
+repositories:
+- repo:
+  - openJiuwen/agent-protocol
+  committers:
+  - atomgit_id: gcw_hx9prznZ
+    name: LeeX
+    orgnization: Huawei
+    email: lixing762@huawei.com
+  - atomgit_id: mingo007
+    name: maoqiming
+    orgnization: Huawei
+    email: maoqiming1@huawei.com
+

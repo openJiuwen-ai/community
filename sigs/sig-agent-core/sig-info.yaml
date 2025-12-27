@@ -1,0 +1,41 @@
+name: sig-agent-core
+description: The sig-agent-core team is responsible for manage agent-core
+mailing_list: NA
+meeting_url: NA
+mature_level: startup
+maintainers:
+- atomgit_id: seanzhang_cn
+  name: zhangxiang
+  orgnization: Huawei
+  email: zhangxiang7@huawei.com
+- atomgit_id: shiruifeng1116
+  name: shiruifeng
+  orgnization: Huawei
+  email: shiruifeng@huawei.com
+- atomgit_id: zhang-xinyu-huawei
+  name: 张鑫宇
+  orgnization: Huawei
+  email: huguangzheng1@huawei.com
+repositories:
+- repo:
+  - openJiuwen/agent-core
+  committers:
+  - atomgit_id: SnapeK
+    name: kangjiayuan
+    email: kangjiayuan@huawei.com
+  - atomgit_id: alan_cheng
+    name: chengshuo
+    email: chengshuo@huawei.com
+  - atomgit_id: iamcandiceguo
+    name: guoqian
+    email: guoqian14@huawei.com
+  - atomgit_id: zhaominjun1997
+    name: 赵敏钧
+    email: zhaominjun1@huawei.com
+  - atomgit_id: deyang
+    name: deyang
+  - atomgit_id: huenrui_
+    name: huenrui
+  - atomgit_id: yangzequ
+    name: yangzequ
+

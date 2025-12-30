@@ -1,0 +1,16 @@
+name: sig-sec
+description: This SIG group is dedicated to user security management.
+mailing_list: NA
+meeting_url: NA
+mature_level: startup
+maintainers:
+- atomgit_id: yyuse
+  name: 杨渊
+  orgnization: Huawei
+  email: yangyuan24@huawei.com
+- atomgit_id: seanzhang_cn
+  name: zhangxiang
+  orgnization: Huawei
+  email: zhangxiang144@huawei.com
+
+

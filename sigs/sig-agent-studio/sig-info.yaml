@@ -1,5 +1,5 @@
 name: sig-agent-studio
-description: The sig-agent-core team is responsible for manage agent-core
+description: The sig-agent-studio team is responsible for manage agent-studio
 mailing_list: NA
 meeting_url: NA
 mature_level: startup
@@ -7,25 +7,28 @@ maintainers:
 - atomgit_id: seanzhang_cn
   name: zhangxiang
   orgnization: Huawei
-  email: zhangxiang7@huawei.com
-- atomgit_id: cyz95
-  name: caoyuzhe
-  orgnization: Huawei
+  email: zhangxiang144@huawei.com
 - atomgit_id: zhang-xinyu-huawei
   name: 张鑫宇
   orgnization: Huawei
-  email: huguangzheng1@huawei.com
+  email: zhangxinyu35@huawei.com
 repositories:
 - repo:
   - openJiuwen/agent-studio
   committers:
   - atomgit_id: xiaoyao42
     name: xiaoyao
-  - atomgit_id: ZYQ5333
-    name: 张雅晴
+    orgnization: Huawei
+    email: xiaoyao42@huawei.com
   - atomgit_id: wangmingqi
     name: 王明琦
+    orgnization: Huawei
+    email: wangmingqi@huawei.com
   - atomgit_id: ldstyle8
     name: Liudongdong604
+    orgnization: Huawei
+    email: liudongdong3@huawei.com
   - atomgit_id: gallonH
     name: 胡嘉伦
+    orgnization: Huawei
+    email: hujialun1@huawei.com

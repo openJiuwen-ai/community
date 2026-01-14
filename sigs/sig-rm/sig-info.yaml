@@ -8,13 +8,17 @@ maintainers:
   name: wanghongbo
   orgnization: Huawei
   email: wanghongbo7@huawei.com
-- atomgit_id: gcw_p3lqgsYT
-  name: 张衡
-  orgnization: Huawei
-  email: zhangheng2@huawei.com
-- atomgit_id: z00430070
+- atomgit_id: zhuxushen
   name: zhuxushen
   orgnization: Huawei
   email: zhuxushen@huawei.com
-
+committers:
+- atomgit_id: shiruifeng1116
+  name: shiruifeng
+  orgnization: Huawei
+  email: shiruifeng@huawei.com
+- atomgit_id: huguangzheng
+  name: huguangzheng
+  orgnization: Huawei
+  email: huguangzheng1@huawei.com
 

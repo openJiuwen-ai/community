@@ -8,7 +8,7 @@ maintainers:
   name: zhangxiang
   orgnization: Huawei
   email: zhangxiang144@huawei.com
-- atomgit_id: zhang-xinyu-huawei
+- atomgit_id: xinyu-jiuwen
   name: 张鑫宇
   orgnization: Huawei
   email: zhangxinyu35@huawei.com
@@ -20,14 +20,14 @@ repositories:
     name: xiaoyao
     orgnization: Huawei
     email: xiaoyao42@huawei.com
-  - atomgit_id: wangmingqi
-    name: 王明琦
+  - atomgit_id: cyz95
+    name: 曹玉哲
     orgnization: Huawei
-    email: wangmingqi@huawei.com
-  - atomgit_id: ldstyle8
-    name: Liudongdong604
+    email: smile.caoyuzhe@huawei.com
+  - atomgit_id: ZYQ5333
+    name: 张雅晴
     orgnization: Huawei
-    email: liudongdong3@huawei.com
+    email: zhangyaqing8@huawei.com
   - atomgit_id: gallonH
     name: 胡嘉伦
     orgnization: Huawei

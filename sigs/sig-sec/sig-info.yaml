@@ -12,5 +12,14 @@ maintainers:
   name: zhangxiang
   orgnization: Huawei
   email: zhangxiang144@huawei.com
+committers:
+- atomgit_id: maxmadmax
+  name: maxmadmax
+  orgnization: Huawei
+  email: chengkun12@huawei.com
+- atomgit_id: zhaozixuan
+  name: zhaozixuan
+  orgnization: Huawei
+  email: zhaozixuan2@huawei.com
 
 

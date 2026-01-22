@@ -20,7 +20,7 @@ repositories:
     name: huguangzheng
     orgnization: Huawei
     email: huguangzheng1@huawei.com
-
-
-
-
+  - atomgit_id: renquanjia
+    name: renquanjia
+    orgnization: Huawei
+    email: renquanjia@huawei.com

@@ -4,8 +4,8 @@ mailing_list: NA
 meeting_url: NA
 mature_level: startup
 maintainers:
-- atomgit_id: YeesunShao
-  name: YeesunShao
+- atomgit_id: YiyangShao
+  name: Yiyang Shao
   orgnization: Huawei
   email: shaoyiyang@huawei.com
 - atomgit_id: xinyu-jiuwen

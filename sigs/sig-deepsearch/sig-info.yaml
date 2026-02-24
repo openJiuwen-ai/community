@@ -1,0 +1,26 @@
+name: deepsearch
+description: The sig-deepsearch team is responsible for manage deepsearch
+mailing_list: NA
+meeting_url: NA
+mature_level: startup
+maintainers:
+- atomgit_id: li_zhonghua
+  name: li_zhonghua
+  orgnization: Huawei
+  email: lizhonghua3@huawei.com
+repositories:
+- repo:
+  - openJiuwen/deepsearch
+  committers:
+  - atomgit_id: yangjianxin4
+    name: yangjianxin4
+    orgnization: Huawei
+    email: yangjianxin4@huawei.com
+  - atomgit_id: lairuofei
+    name: lairuofei
+    orgnization: Huawei
+    email: lairuofei@huawei.com
+  - atomgit_id: RyanYang51
+    name: Ryan
+    orgnization: Huawei
+    email: yangruian@huawei.com

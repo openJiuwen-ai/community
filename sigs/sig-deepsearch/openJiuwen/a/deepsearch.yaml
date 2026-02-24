@@ -1,0 +1,8 @@
+name: deepsearch
+description: Built on the openJiuwen agent-core framework, openJiuwen DeepSearch is a system supporting both deep search and research work.
+branches:
+- name: dev
+  type: protected
+- name: main
+  type: protected
+type: public

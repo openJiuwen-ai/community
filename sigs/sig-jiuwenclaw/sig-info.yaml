@@ -1,0 +1,26 @@
+name: jiuwenclaw
+description: The sig-jiuwenclaw team is responsible for manage jiuwenclaw
+mailing_list: NA
+meeting_url: NA
+mature_level: startup
+maintainers:
+- atomgit_id: douran
+  name: douran
+  orgnization: Huawei
+  email: douran1@huawei.com
+repositories:
+- repo:
+  - openJiuwen/jiuwenclaw
+  committers:
+  - atomgit_id: ray_le
+    name: lilei
+    orgnization: Huawei
+    email: lilei336@h-partners.com
+  - atomgit_id: hy592070616
+    name: hongyuan
+    orgnization: Huawei
+    email: hongyuan3@huawei.com
+  - atomgit_id: Haowei_Du
+    name: duhaowei
+    orgnization: Huawei
+    email: duhaowei1@huawei.com

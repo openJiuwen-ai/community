@@ -7,7 +7,7 @@
 在开始openJiuwen文档写作前，请先浏览本指南内容，参照相应要求或建议进行写作。
 
 
-此外，请优先在“[openJiuwen文档写作模板](https://gitee.com/openJiuwen/docs/tree/master/zh-cn/contribute/template)”中选择最贴近待写作内容的模板，遵循模板要求进行写作。写作模板提供特定类型文档的针对性写作指引，充分利用写作模板将事半功倍。
+此外，请优先在“[openJiuwen文档写作模板](https://gitee.com/openJiuwen/docs/tree/main/zh-cn/contribute/template)”中选择最贴近待写作内容的模板，遵循模板要求进行写作。写作模板提供特定类型文档的针对性写作指引，充分利用写作模板将事半功倍。
 
 
 本指南持续更新，欢迎提出改进意见。

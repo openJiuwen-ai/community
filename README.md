@@ -31,18 +31,18 @@ openJiuwen 为原生支持多智能体协同和智能体自演进而设计，系
 
 ### 遵守行为准则
 
-openJiuwen 是一个开源社区，它完全依赖于社区提供友好的开发和协作环境。在参与社区贡献之前，请先阅读并遵守 [openJiuwen 社区行为准则](https://gitcode.com/openjiuwen/community/tree/master/openJiuwen社区行为准则.md)。
+openJiuwen 是一个开源社区，它完全依赖于社区提供友好的开发和协作环境。在参与社区贡献之前，请先阅读并遵守 [openJiuwen 社区行为准则](https://gitcode.com/openjiuwen/community/tree/main/openJiuwen社区行为准则.md)。
 
 ### 签署开发者贡献协议（CLA）
 
 **重要：** 您必须首先签署完成 openJiuwen 社区"开发者贡献协议"（CLA），才能参与 openJiuwen 社区贡献。
 
 - 点击[这里](https://clasign.osinfra.cn/sign/68ee0908765718ad08bab9ee)签署 CLA
-- 详细流程请参考[签署指南](https://gitcode.com/openjiuwen/community/tree/master/cla/cla使用指南.md)
+- 详细流程请参考[签署指南](https://gitcode.com/openjiuwen/community/tree/main/cla/cla使用指南.md)
 
 ### 找到感兴趣的 SIG
 
-SIG（Special Interest Group，特别兴趣小组）是 openJiuwen 社区的技术组织单元。如何参与 SIG，请参考 [SIG 治理章程](https://gitcode.com/openJiuwen/Sigs)。
+SIG（Special Interest Group，特别兴趣小组）是 openJiuwen 社区的技术组织单元。如何参与 SIG，请参考 [SIG 治理章程](https://gitcode.com/openJiuwen/community/blob/main/coreteam/openJiuwen%E7%A4%BE%E5%8C%BA%E7%AB%A0%E7%A8%8B.md#sig  )。
 
 ---
 
@@ -56,11 +56,11 @@ openJiuwen 社区欢迎多种形式的贡献：
 
 ### 非代码贡献
 
-- **文档贡献**：若需要贡献文档，请参考[文档贡献指南](https://gitcode.com/openjiuwen/docs/tree/master/CONTRINUTING_zh.md)
-- **合规类问题**：若发现合规类问题，请参考[开源合规类问题管理](https://gitcode.com/openjiuwen/community/tree/master/contribute/开源合规类问题管理.md)
+- **文档贡献**：若需要贡献文档，请参考[文档贡献指南](https://gitcode.com/openJiuwen/community/blob/main/CONTRIBUTING_zh.md)
+- **合规类问题**：若发现合规类问题，请参考[开源合规类问题管理](https://gitcode.com/openjiuwen/community/tree/main/contribute/开源合规类问题管理.md)
 - **安全类问题**：若发现安全/漏洞问题，请参考：
-  - [网络安全事件管理流程](https://gitcode.com/openjiuwen/community/tree/master/contribute/网络安全事件管理.md)
-  - [社区漏洞治理&披露](https://gitcode.com/openjiuwen/community/tree/master/contribute/社区安全漏洞治理及披露.md)
+  - [网络安全事件管理流程](https://gitcode.com/openjiuwen/community/tree/main/contribute/网络安全事件管理.md)
+  - [社区漏洞治理&披露](https://gitcode.com/openjiuwen/community/tree/main/contribute/社区安全漏洞治理及披露.md)
 
 ---
 
@@ -109,14 +109,14 @@ openJiuwen 社区欢迎多种形式的贡献：
    ```bash
    git remote add origin $remote_link
    git fetch origin
-   git checkout master
+   git checkout main
    git pull --rebase
    ```
 
-   基于远端 master 分支拉取本地调试分支：
+   基于远端 main 分支拉取本地调试分支：
 
    ```bash
-   git branch myfeature origin/master
+   git branch myfeature origin/main
    git checkout myfeature
    ```
 
@@ -134,20 +134,20 @@ openJiuwen 采用 [Apache License 2.0 (Apache-2.0)](https://www.apache.org/licen
 
 **重要：** 用户提交的代码必须是原创内容，不得侵犯他人知识产权。
 
-- 贡献代码请遵守[许可证与版权规范](https://gitcode.com/openjiuwen/community/tree/master/contribute/许可证与版权规范.md)
-- 若新贡献代码涉及第三方开源软件引入或片段引用，请严格遵守[许可证与特殊许可证评审指导](https://gitcode.com/openjiuwen/community/tree/master/contribute/许可证与特殊许可证评审指导.md)中的要求
+- 贡献代码请遵守[许可证与版权规范](https://gitcode.com/openjiuwen/community/tree/main/contribute/许可证与版权规范.md)
+- 若新贡献代码涉及第三方开源软件引入或片段引用，请严格遵守[许可证与特殊许可证评审指导](https://gitcode.com/openjiuwen/community/tree/main/contribute/许可证与特殊许可证评审指导.md)中的要求
 - openJiuwen 有权根据相关规范修改/删除开发者贡献的内容，直至符合对应规范要求
 
 ### 设计规范
 
-- [openJiuwen 安全设计规范](https://gitcode.com/openjiuwen/community/tree/master/contribute/style_guide/openJiuwen-security-design-guide.md)
+- [openJiuwen 安全设计规范](https://gitcode.com/openjiuwen/community/tree/main/contribute/style-guide/openJiuwen-security-design-guide.md)
 
 ### 代码风格
 
 请遵循 openJiuwen 编程规范，进行代码开发、检视，务必保持代码风格统一。
 
 - **Python 语言编程规范**：[PEP 8](https://pep8.org/)
-- **JavaScript 语言编程规范**：[openJiuwen JavaScript 编码规范](https://gitcode.com/openjiuwen/community/tree/master/contribute/style_guide/openJiuwen-JavaScript-coding-style-guide.md)
+- **JavaScript 语言编程规范**：[openJiuwen JavaScript 编码规范](https://gitcode.com/openjiuwen/community/tree/main/contribute/style-guide/openJiuwen-JavaScript-coding-style-guide.md)
 
 ### 提交信息规范
 
@@ -283,7 +283,7 @@ openJiuwen 通过持续集成（CI，Continuous Integration）及时发现代码
 
 ### 邮件列表
 
-如果您在使用 openJiuwen 过程中遇到问题，请加入邮件群组参与讨论。这是参与 openJiuwen 社区讨论的正确方式，请参考[订阅邮件列表](https://gitcode.com/openJiuwen/community/blob/master/maillist_zh.md)。
+如果您在使用 openJiuwen 过程中遇到问题，请加入邮件群组参与讨论。这是参与 openJiuwen 社区讨论的正确方式，请参考[订阅邮件列表](https://gitcode.com/openJiuwen/community/blob/main/maillist_zh.md)。
 
 <!-- 左右并排 -->
 <div style="display:flex; align-items: flex-start; gap: 50px;">

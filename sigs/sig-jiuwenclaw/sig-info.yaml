@@ -12,15 +12,15 @@ repositories:
 - repo:
   - openJiuwen/jiuwenclaw
   committers:
-  - atomgit_id: ray_le
-    name: lilei
+  - atomgit_id: alan_cheng
+    name: chengshuo
     orgnization: Huawei
-    email: lilei336@h-partners.com
+    email: chengshuo@huawei.com
   - atomgit_id: hy592070616
     name: hongyuan
     orgnization: Huawei
     email: hongyuan3@huawei.com
-  - atomgit_id: Haowei_Du
-    name: duhaowei
+  - atomgit_id: xiaowenzihwl
+    name: hewenli
     orgnization: Huawei
-    email: duhaowei1@huawei.com
+    email: hewenli1@huawei.com

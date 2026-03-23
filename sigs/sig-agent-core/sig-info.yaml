@@ -16,10 +16,10 @@ repositories:
 - repo:
   - openJiuwen/agent-core
   committers:
-  - atomgit_id: yangzequ
-    name: yangzequ
+  - atomgit_id: iamcandiceguo
+    name: guoqian
     orgnization: Huawei
-    email: yangzequ1@huawei.com
+    email: guoqian14@huawei.com
   - atomgit_id: alan_cheng
     name: chengshuo
     orgnization: Huawei

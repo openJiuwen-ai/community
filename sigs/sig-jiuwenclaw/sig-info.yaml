@@ -24,3 +24,7 @@ repositories:
     name: hewenli
     orgnization: Huawei
     email: hewenli1@huawei.com
+  - atomgit_id: zepinzhang
+    name: zhangzepin
+    orgnization: Huawei
+    email: zhangzepin@huawei.com

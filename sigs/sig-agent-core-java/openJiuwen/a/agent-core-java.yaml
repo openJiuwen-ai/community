@@ -1,0 +1,8 @@
+name: agent-core-java
+description: openJiuwen Core Java is a Java port of openJiuwen Core Python, providing a full set of SDK capabilities for AI agent development, running, tuning, and evolution.
+branches:
+- name: develop
+  type: protected
+- name: main
+  type: protected
+type: public

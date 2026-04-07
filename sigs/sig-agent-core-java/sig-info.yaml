@@ -1,0 +1,38 @@
+name: sig-agent-core-java
+description: The sig-agent-core team is responsible for manage agent-core
+mailing_list: NA
+meeting_url: NA
+mature_level: startup
+maintainers:
+- atomgit_id: shenwei21
+  name: shenwei
+  orgnization: Huawei
+  email: shenwei32@huawei.com  
+- atomgit_id: tianmingyong
+  name: tianmingyong_makeit
+  orgnization: Huawei
+  email: tianmingyong@huawei.com
+repositories:
+- repo:
+  - openJiuwen/agent-core-java
+  committers:
+  - atomgit_id: kangquansheng_makeIT
+    name: kangquansheng_makeIT
+    orgnization: Huawei
+    email: kangquansheng@huawei.com
+  - atomgit_id: foreach1991
+    name: lideliang_makeit
+    orgnization: Huawei
+    email: lideliang5@huawei.com 
+  - atomgit_id: jeffrey_qiao
+    name: jeffrey_qiao
+    orgnization: Huawei
+    email: jeffrey.qiao@huawei.com
+  - atomgit_id: gcw_xJSJ32Ge
+    name: wuweizhi
+    orgnization: Huawei
+    email: weizhi.wu@huawei.com  
+  - atomgit_id: xiongjie_makeit
+    name: xiongjie_makeit
+    orgnization: Huawei
+    email: jerry.xiongjie@huawei.com

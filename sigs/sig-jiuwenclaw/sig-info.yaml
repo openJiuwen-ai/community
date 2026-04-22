@@ -28,3 +28,11 @@ repositories:
     name: zhangzepin
     orgnization: Huawei
     email: zhangzepin@huawei.com
+  - atomgit_id: wangxiaolong
+    name: wangxiaolong
+    orgnization: Huawei
+    email: wangxiaolong100@huawei.com
+  - atomgit_id: chenchunzhou
+    name: chenchunzhou
+    orgnization: Huawei
+    email: chenchunzhou1@huawei.com

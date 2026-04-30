@@ -4,19 +4,27 @@ mailing_list: NA
 meeting_url: NA
 mature_level: startup
 maintainers:
-- atomgit_id: seanzhang_cn
-  name: zhangxiang
+- atomgit_id: caozhenhua0000
+  name: caozhenhua0000
   orgnization: Huawei
-  email: zhangxiang144@huawei.com
+  email: caozhenhua2@huawei.com
+- atomgit_id: xiaowenzihwl
+  name: hewenli
+  orgnization: Huawei
+  email: hewenli1@huawei.com
 repositories:
 - repo:
   - openJiuwen/skillhub
   committers:
-  - atomgit_id: xiaowenzihwl
-    name: hewenli
+  - atomgit_id: zepinzhang
+    name: zhangzepin
     orgnization: Huawei
-    email: hewenli1@huawei.com
-  - atomgit_id: caozhenhua0000
-    name: caozhenhua0000
+    email: zhangzepin@huawei.com
+  - atomgit_id: blooms195
+    name: blooms
     orgnization: Huawei
-    email: caozhenhua2@huawei.com
+    email: hulan4@huawei.com
+  - atomgit_id: deyang
+    name: lideyang
+    orgnization: Huawei
+    email: lideyang2@huawei.com

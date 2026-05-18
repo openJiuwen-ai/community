@@ -1,0 +1,8 @@
+name: jiuwenswarm
+description: Built on the openJiuwen agent-core framework, openJiuwen JiuwenSwarm is an AI assistant.
+branches:
+- name: develop
+  type: protected
+- name: main
+  type: protected
+type: public

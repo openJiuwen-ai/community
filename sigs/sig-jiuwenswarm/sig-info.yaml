@@ -1,5 +1,5 @@
-name: jiuwenclaw
-description: The sig-jiuwenclaw team is responsible for manage jiuwenclaw
+name: jiuwenswarm
+description: The sig-jiuwenswarm team is responsible for manage jiuwenswarm
 mailing_list: NA
 meeting_url: NA
 mature_level: startup
@@ -10,7 +10,7 @@ maintainers:
   email: douran1@huawei.com
 repositories:
 - repo:
-  - openJiuwen/jiuwenclaw
+  - openJiuwen/jiuwenswarm
   committers:
   - atomgit_id: alan_cheng
     name: chengshuo

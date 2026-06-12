@@ -1,0 +1,8 @@
+name: jiuwensymbiosis
+description: Built on the openJiuwen agent-core framework, JiuwenSymbiosis is a Physical AI assistant.
+branches:
+- name: develop
+  type: protected
+- name: main
+  type: protected
+type: public

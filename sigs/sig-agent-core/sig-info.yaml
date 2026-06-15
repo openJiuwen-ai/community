@@ -28,10 +28,6 @@ repositories:
     name: chengshuo
     orgnization: Huawei
     email: chengshuo@huawei.com
-  - atomgit_id: SnapeK
-    name: kangjiayuan
-    orgnization: Huawei
-    email: kangjiayuan@huawei.com
   - atomgit_id: deyang
     name: lideyang
     orgnization: Huawei

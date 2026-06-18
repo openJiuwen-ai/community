@@ -1,0 +1,23 @@
+name: sig-agent-memory
+description: The sig-agent-memory team is responsible for manage agent-memory
+mailing_list: NA
+meeting_url: NA
+mature_level: startup
+maintainers:
+- atomgit_id: chenglinsong
+  name: 程林松
+  orgnization: Huawei
+  email: chenglinsong@huawei.com
+repositories:
+- repo:
+  - openJiuwen/agent-memory
+  committers:
+  - atomgit_id: chenglinsong
+    name: 程林松
+    orgnization: Huawei
+    email: chenglinsong@huawei.com
+  - atomgit_id: zhaohengfei
+    name: zhaohengfei
+    orgnization: Huawei
+    email: zhaohengfei1@huawei.com
+

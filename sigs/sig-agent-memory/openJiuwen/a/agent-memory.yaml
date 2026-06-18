@@ -1,0 +1,8 @@
+name: agent-memory
+description: Memory library for agent
+branches:
+- name: develop
+  type: protected
+- name: main
+  type: protected
+type: public

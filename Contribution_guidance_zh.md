@@ -9,14 +9,11 @@ openJiuwen 为原生支持多智能体协同和智能体自演进而设计，系
 
 # 社区热门仓库
 
-- __openJiuwen Studio__ 包括 Agent零码、低码可视化开发和工作流编排，模型、知识库、插件等各资源管理；
+- __openJiuwen JiuwenSwarm__ 多智能体协作的Agent系统，具备自然语言驱动多Agent协作、Skill自演进和工具调用能力。
 
-- __openJiuwen Core__ 为开发者配备了AI Agent开发、运行、调优与演进相关的全套SDK及工具；
+- __openJiuwen Core__ 为开发者配备了AI Agent开发、运行、调优与演进相关的全套SDK及工具。
 
-- __community__ 主要承载社区章程、社区规范、CLA签署等社区运作类相关信息；
-
-- __docs__  是openJiuwen文档中心，存放社区所有SIG组的技术文档和手册。
-
+- __openJiuwen Studio__ 包括 Agent零码、低码可视化开发和工作流编排，模型、知识库、插件等各资源管理。
 # 如何参与贡献
 
 加入方式参见：https://www.openjiuwen.com/contribute

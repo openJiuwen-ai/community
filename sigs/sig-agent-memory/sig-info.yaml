@@ -8,6 +8,14 @@ maintainers:
   name: 程林松
   orgnization: Huawei
   email: chenglinsong@huawei.com
+- atomgit_id: li_zhonghua
+  name: li_zhonghua
+  orgnization: Huawei
+  email: lizhonghua3@huawei.com
+- atomgit_id: gcw_hv0KZn0L
+  name: zhaojingwen
+  orgnization: Huawei
+  email: zhaojingwen5@huawei.com
 repositories:
 - repo:
   - openJiuwen/agent-memory
@@ -20,4 +28,24 @@ repositories:
     name: zhaohengfei
     orgnization: Huawei
     email: zhaohengfei1@huawei.com
+  - atomgit_id: li_zhonghua
+    name: li_zhonghua
+    orgnization: Huawei
+    email: lizhonghua3@huawei.com
+  - atomgit_id: RyanYang51
+    name: Ryan
+    orgnization: Huawei
+    email: yangruian@huawei.com
+  - atomgit_id: yangjianxin4
+    name: yangjianxin4
+    orgnization: Huawei
+    email: yangjianxin4@huawei.com
+  - atomgit_id: pangdundun-erpangpang
+    name: pangdundun-erpangpang
+    orgnization: Huawei
+    email: lijiafeng4@huawei.com
+  - atomgit_id: gcw_hv0KZn0L
+    name: zhaojingwen
+    orgnization: Huawei
+    email: zhaojingwen5@huawei.com
 

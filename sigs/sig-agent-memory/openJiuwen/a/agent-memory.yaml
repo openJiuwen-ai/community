@@ -5,4 +5,6 @@ branches:
   type: protected
 - name: main
   type: protected
+- name: mem2.0
+  type: protected
 type: public

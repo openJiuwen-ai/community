@@ -48,4 +48,8 @@ repositories:
     name: zhaojingwen
     orgnization: Huawei
     email: zhaojingwen5@huawei.com
+  - atomgit_id: miaoran_li
+    name: miaoran_li
+    orgnization: Huawei
+    email: limiaoran@huawei.com
 

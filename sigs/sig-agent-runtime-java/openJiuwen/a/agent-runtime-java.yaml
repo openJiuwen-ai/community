@@ -1,0 +1,8 @@
+name: agent-runtime-java
+description: openJiuwen Runtime Java is the Java implementation repository for distributed agent runtime.
+branches:
+- name: develop
+  type: protected
+- name: main
+  type: protected
+type: public

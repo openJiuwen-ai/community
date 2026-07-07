@@ -1,0 +1,30 @@
+name: sig-agent-runtime-java
+description: The sig-agent-runtime-java team is responsible for manage agent-runtime-java
+mailing_list: NA
+meeting_url: NA
+mature_level: startup
+maintainers:
+- atomgit_id: fujilie
+  name: 吉烈
+  orgnization: Huawei
+  email: fujilie@huawei.com
+- atomgit_id: LucioIT
+  name: LucioIT
+  orgnization: Huawei
+  email: luqizhengqiu@huawei.com
+repositories:
+- repo:
+  - openJiuwen/agent-runtime-java
+  committers:
+  - atomgit_id: whylazy
+    name: yaodonghai
+    orgnization: Huawei
+    email: yaodonghai@huawei.com
+  - atomgit_id: fujilie
+    name: 吉烈
+    orgnization: Huawei
+    email: fujilie@huawei.com
+  - atomgit_id: xiaoming-2026
+    name: xiaoming
+    orgnization: Huawei
+    email: xiaoming.xiaoming@huawei.com

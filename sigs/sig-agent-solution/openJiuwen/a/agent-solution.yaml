@@ -1,0 +1,10 @@
+name: agent-solution
+description: openJiuwen agent-solution is an extension repository for industry-specific solutions and general capability components covering finance, manufacturing, electric power, transportation, oil & gas mining, public utilities and other industries.
+branches:
+- name: main
+  type: protected
+- name: common
+  type: protected
+- name: finance
+  type: protected
+type: public

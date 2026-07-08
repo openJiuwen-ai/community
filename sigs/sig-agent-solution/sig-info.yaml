@@ -1,0 +1,30 @@
+name: sig-agent-solution
+description: The sig-agent-solution team is responsible for manage agent-solution
+mailing_list: NA
+meeting_url: NA
+mature_level: startup
+maintainers:
+- atomgit_id: LucioIT
+  name: LucioIT
+  orgnization: Huawei
+  email: luqizhengqiu@huawei.com
+- atomgit_id: xingchao_ml
+  name: xingchao_ml
+  orgnization: Huawei
+  email: xingchao.ml@huawei.com
+repositories:
+- repo:
+  - openJiuwen/agent-solution
+  committers:
+  - atomgit_id: LucioIT
+    name: LucioIT
+    orgnization: Huawei
+    email: luqizhengqiu@huawei.com
+  - atomgit_id: xingchao_ml
+    name: xingchao_ml
+    orgnization: Huawei
+    email: xingchao.ml@huawei.com
+  - atomgit_id: xiaoming-2026
+    name: xiaoming
+    orgnization: Huawei
+    email: xiaoming.xiaoming@huawei.com

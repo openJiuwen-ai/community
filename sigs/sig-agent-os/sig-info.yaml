@@ -24,3 +24,7 @@ repositories:
     name: xiangpanxiao
     orgnization: Huawei
     email: xiangpanxiao@huawei.com
+  - atomgit_id: wangxiaolong100
+    name: wangxiaolong
+    orgnization: Huawei
+    email: wangxiaolong100@huawei.com

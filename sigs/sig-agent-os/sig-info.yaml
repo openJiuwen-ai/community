@@ -4,14 +4,14 @@ mailing_list: NA
 meeting_url: NA
 mature_level: startup
 maintainers:
-- atomgit_id: xinyu-jiuwen
-  name: 张鑫宇
-  orgnization: Huawei
-  email: zhangxinyu35@huawei.com
 - atomgit_id: liufangchao
   name: liufangchao
   orgnization: Huawei
   email: liufangchao@huawei.com
+- atomgit_id: xinyu-jiuwen
+  name: 张鑫宇
+  orgnization: Huawei
+  email: zhangxinyu35@huawei.com
 - atomgit_id: ychen3
   name: chenyuanfang
   orgnization: Huawei

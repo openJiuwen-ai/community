@@ -1,0 +1,6 @@
+name: agent-os
+description: Agent OS is a platform for managing and deploying AI agents.
+branches:
+- name: main
+  type: protected
+type: public

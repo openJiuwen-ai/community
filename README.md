@@ -20,7 +20,7 @@
 
 openJiuwen 为原生支持多智能体协同和智能体自演进而设计，系统架构主要由 **openJiuwen Core**、**openJiuwen Studio** 和 **openJiuwen Ops**（即将开放）三大部分组成，为开发者提供从 Agent 开发、调优到部署的一站式平台。
 
-![架构图](https://openjiuwen-ci.obs.cn-north-4.myhuaweicloud.com/testmyai/ScreenShot_2025-12-05_144831_247.png)
+![架构图](https://www.openjiuwen.com/img/main_page/struct_cut.png)
 
 **社区热门仓库：**
 

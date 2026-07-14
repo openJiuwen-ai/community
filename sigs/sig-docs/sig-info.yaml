@@ -5,7 +5,6 @@ meeting_url: NA
 mature_level: startup
 repositories:
 - repo:
-  - openJiuwen/docs
   - openJiuwen/community
   committers:
   - atomgit_id: yuzengjie01

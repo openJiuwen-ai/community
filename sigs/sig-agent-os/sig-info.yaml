@@ -5,26 +5,35 @@ meeting_url: NA
 mature_level: startup
 maintainers:
 - atomgit_id: liufangchao
-  name: liufangchao
+  name: 刘方超
   orgnization: Huawei
   email: liufangchao@huawei.com
 - atomgit_id: xinyu-jiuwen
   name: 张鑫宇
   orgnization: Huawei
   email: zhangxinyu35@huawei.com
-- atomgit_id: ychen3
-  name: chenyuanfang
+- atomgit_id: hekefeng
+  name: 贺科峰
   orgnization: Huawei
-  email: chenyuanfang6@huawei.com
+  email: hekefeng@huawei.com
 repositories:
 - repo:
   - openJiuwen/agent-os
   committers:
+  - atomgit_id: alan_cheng
+    name: 程烁
+    email: chengshuo5@huawei.com
+  - atomgit_id: slichengsong
+    name: 宋丽成
+    email: slicheng.song@huawei.com
+  - atomgit_id: gcw_hx9prznZ
+    name: 李杏
+    email: lixing762@huawei.com
   - atomgit_id: xiangpx
-    name: xiangpanxiao
+    name: 项攀霄
     orgnization: Huawei
     email: xiangpanxiao@huawei.com
-  - atomgit_id: wangxiaolong100
-    name: wangxiaolong
+  - atomgit_id: zhaozixuan
+    name: 赵子轩
     orgnization: Huawei
-    email: wangxiaolong100@huawei.com
+    email: zhaozixuan2@huawei.com

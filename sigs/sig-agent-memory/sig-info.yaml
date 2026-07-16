@@ -12,7 +12,7 @@ maintainers:
   name: li_zhonghua
   orgnization: Huawei
   email: lizhonghua3@huawei.com
-- atomgit_id: gcw_hv0KZn0L
+- atomgit_id: JingwenZhao
   name: zhaojingwen
   orgnization: Huawei
   email: zhaojingwen5@huawei.com
@@ -44,7 +44,7 @@ repositories:
     name: pangdundun-erpangpang
     orgnization: Huawei
     email: lijiafeng4@huawei.com
-  - atomgit_id: gcw_hv0KZn0L
+  - atomgit_id: JingwenZhao
     name: zhaojingwen
     orgnization: Huawei
     email: zhaojingwen5@huawei.com

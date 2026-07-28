@@ -8,14 +8,18 @@ maintainers:
   name: liuxin
   orgnization: Huawei
   email: liuxin158@huawei.com
+- atomgit_id: zhangjiahui998
+  name: zhangjiahui
+  orgnization: Huawei
+  email: zhangjiahui71@huawei.com
 repositories:
 - repo:
   - openJiuwen/jiuwensymbiosis
   committers:
-  - atomgit_id: jhzhang998
-    name: zhangjiahui
+  - atomgit_id: yyyamal
+    name: shangjian
     orgnization: Huawei
-    email: zhangjiahui71@huawei.com
+    email: shangjian2@huawei.com
   - atomgit_id: LightOfSnow
     name: dengziyang
     orgnization: Huawei
@@ -24,11 +28,7 @@ repositories:
     name: lizhixin
     orgnization: Huawei
     email: lizhixin30@huawei.com
-  - atomgit_id: rsy6318
+  - atomgit_id: rsy6318123
     name: rensiyu
     orgnization: Huawei
     email: rensiyu6@huawei.com
-  - atomgit_id: yyyamal
-    name: shangjian
-    orgnization: Huawei
-    email: shangjian2@huawei.com

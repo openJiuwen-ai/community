@@ -52,4 +52,8 @@ repositories:
     name: wuweizhi
     orgnization: Huawei
     email: weizhi.wu@huawei.com
+  - atomgit_id: Jiuwen_Yankee
+    name: dingyangkai
+    orgnization: Huawei
+    email: dingyangkai@huawei.com
   

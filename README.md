@@ -1,37 +1,37 @@
-# openJiuwen 贡献指南
+# openJiuwen Contribution Guide
 
-欢迎参与 openJiuwen 社区贡献！openJiuwen 作为开源 Agent 平台，致力于提供灵活、强大且易用的 AI Agent 开发与运行能力。我们鼓励开发者以各种方式参与社区贡献，包括但不限于代码贡献、文档改进、问题反馈、功能建议等。
+Welcome to the openJiuwen community! As an open-source Agent platform, openJiuwen is dedicated to providing flexible, powerful, and easy-to-use AI Agent development and runtime capabilities. We encourage developers to participate in the community in a variety of ways, including but not limited to code contributions, documentation improvements, issue reports, and feature suggestions.
 
-## 目录
+## Table of Contents
 
-- [开始之前](#开始之前)
-- [贡献类型](#贡献类型)
-- [代码贡献流程](#代码贡献流程)
-- [开发规范](#开发规范)
-- [提交流程](#提交流程)
-- [代码审查](#代码审查)
-- [社区沟通](#社区沟通)
+- [Before You Start](#before-you-start)
+- [Types of Contributions](#types-of-contributions)
+- [Code Contribution Workflow](#code-contribution-workflow)
+- [Development Guidelines](#development-guidelines)
+- [Submission Workflow](#submission-workflow)
+- [Code Review](#code-review)
+- [Community Communication](#community-communication)
 
 ---
 
-# 系统架构
+# System Architecture
 
-openJiuwen 采用分层架构设计，覆盖 AI Agent 从开发、运行到部署和运维的完整生命周期，整体由 **DeepAgents**、**Agent Studio** 、**Agent Framwork**、**Agent Distributed Runtime**、**Agent System Service** 组成。
-- **DeepAgents**：提供面向不同场景的复杂智能体，如 JiuwenSwarm、JiuwenSymbiosis、DeepSearch 等，支持开箱即用。 
-- **Agent Studio**：一站式 AI Agent 开发平台，提供低代码 / 零代码可视化开发能力，支持 Agent 开发、工作流编排、Prompt 调优、在线调试和资源管理，帮助开发者快速打造和调试智能体及工作流。
-- **Agent Framework**: openJiuwen 核心框架与执行引擎，为开发者提供多场景、易用的 Agent 开发、编排与调用接口。覆盖复杂任务规划、循环执行、工具与技能调用、上下文管理、记忆子系统、多智能体协同、Agent 自演进、算力亲和调度等关键特性，全面支撑单体 Agent 到多 Agent 协同的工程化落地。
-- **Agent Distributed Runtime**: 提供分布式 Agent 运行时底座，支持低码、高码两种智能体部署模式，实现 Agent 一键发布部署与全生命周期统一管控。原生内置多租户资源隔离、服务弹性扩缩容、统一注册发现、跨集群高速互通等核心能力，全面支撑大规模多 Agent 集群稳定运行、业务规模化落地。
-- **Agent System Service**：AgentOS 底层基础系统服务，内置系统级安全隔离沙箱、全局统一记忆持久化存储、原生 CLI 系统工具、标准化 Agent 文件系统、跨Agent通信总线等底层核心能力，支撑全平台智能体安全运行、资源统一调度与多Agent高效协同。
+openJiuwen adopts a layered architecture that covers the full lifecycle of an AI Agent—from development and runtime to deployment and operations. It consists of **DeepAgents**, **Agent Studio**, **Agent Framework**, **Agent Distributed Runtime**, and **Agent System Service**.
+- **DeepAgents**: Provides complex agents for different scenarios, such as JiuwenSwarm, JiuwenSymbiosis, and DeepSearch, ready to use out of the box.
+- **Agent Studio**: A one-stop AI Agent development platform offering low-code / no-code visual development. It supports Agent development, workflow orchestration, prompt tuning, online debugging, and resource management, helping developers quickly build and debug agents and workflows.
+- **Agent Framework**: The core framework and execution engine of openJiuwen, providing developers with easy-to-use, multi-scenario interfaces for Agent development, orchestration, and invocation. It covers key capabilities such as complex task planning, loop execution, tool and skill invocation, context management, the memory subsystem, multi-agent collaboration, Agent self-evolution, and compute-affinity scheduling—comprehensively supporting the engineering implementation of everything from a single Agent to multi-Agent collaboration.
+- **Agent Distributed Runtime**: Provides a distributed Agent runtime foundation that supports both low-code and high-code agent deployment modes, enabling one-click Agent publishing/deployment and unified full-lifecycle management. It natively includes core capabilities such as multi-tenant resource isolation, elastic service scaling, unified registration and discovery, and high-speed cross-cluster interconnection—comprehensively supporting the stable operation of large-scale multi-Agent clusters and business scale-out.
+- **Agent System Service**: The underlying system service of AgentOS. It has built-in system-level security isolation sandboxes, globally unified persistent memory storage, native CLI system tools, a standardized Agent file system, a cross-Agent communication bus, and other low-level core capabilities—supporting secure operation of agents across the platform, unified resource scheduling, and efficient multi-Agent collaboration.
 
-<img src="https://gitcode.com/openJiuwen/community/blob/main/images/openJiuwen能力架构图.png" alt="openJiuwen能力架构图" style="display: block; width: 100%; max-width: 1000px; height: auto; margin: 16px auto;" />
+<img src="./images/openJiuwen能力架构图.png" alt="openJiuwen Capability Architecture" style="display: block; width: 100%; max-width: 1000px; height: auto; margin: 16px auto;" />
 
-## 实现概览
+## Implementation Overview
 
-openJiuwen 采用模块化仓库设计，逐层构建 AI Agent 开发生态。各仓库可独立演进，也可组合使用，覆盖从智能体应用、技能分发、可视化编排、框架开发到服务化运行的完整链路。
+openJiuwen adopts a modular repository design, building the AI Agent development ecosystem layer by layer. Each repository can evolve independently or be combined with others, covering the full chain from agent applications, skill distribution, and visual orchestration to framework development and service-based runtime.
 
-<img src="https://gitcode.com/openJiuwen/community/blob/main/images/openJiuwen实现架构图.jpg" alt="openJiuwen实现架构图" style="display: block; width: 100%; max-width: 1000px; height: auto; margin: 16px auto;" />
+<img src="./images/openJiuwen实现架构图.jpg" alt="openJiuwen Implementation Architecture" style="display: block; width: 100%; max-width: 1000px; height: auto; margin: 16px auto;" />
 
-### 代码仓总览
+### Repository Overview
 
 <div style="overflow-x: auto;">
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
@@ -42,145 +42,142 @@ openJiuwen 采用模块化仓库设计，逐层构建 AI Agent 开发生态。�
   </colgroup>
   <thead>
     <tr>
-      <th style="border: 1px solid; padding: 10px 12px; text-align: left; font-weight: 700;">模块</th>
-      <th style="border: 1px solid; padding: 10px 12px; text-align: left; font-weight: 700;">仓库</th>
-      <th style="border: 1px solid; padding: 10px 12px; text-align: left; font-weight: 700;">说明</th>
+      <th style="border: 1px solid; padding: 10px 12px; text-align: left; font-weight: 700;">Module</th>
+      <th style="border: 1px solid; padding: 10px 12px; text-align: left; font-weight: 700;">Repository</th>
+      <th style="border: 1px solid; padding: 10px 12px; text-align: left; font-weight: 700;">Description</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td rowspan="3" style="border: 1px solid; padding: 10px 12px; font-weight: 700; vertical-align: middle;">Deep Agents</td>
-      <td style="border: 1px solid; padding: 10px 12px; vertical-align: top;"><a href="https://gitcode.com/openJiuwen/jiuwenswarm">jiuwenswarm</a></td>
-      <td style="border: 1px solid; padding: 10px 12px; vertical-align: top;">多智能体协同框架与官方旗舰应用，支持复杂任务协作与 Skill 自演进。</td>
+      <td style="border: 1px solid; padding: 10px 12px; vertical-align: top;"><a href="https://github.com/openJiuwen-ai/jiuwenswarm">jiuwenswarm</a></td>
+      <td style="border: 1px solid; padding: 10px 12px; vertical-align: top;">A multi-agent collaboration framework and official flagship application, supporting complex task collaboration and Skill self-evolution.</td>
     </tr>
     <tr>
-      <td style="border: 1px solid; padding: 10px 12px; vertical-align: top;"><a href="https://gitcode.com/openJiuwen/jiuwensymbiosis">jiuwensymbiosis</a></td>
-      <td style="border: 1px solid; padding: 10px 12px; vertical-align: top;">面向具身智能的 Agent 框架，支持构型无关的能力复用与安全控制。</td>
+      <td style="border: 1px solid; padding: 10px 12px; vertical-align: top;"><a href="https://github.com/openJiuwen-ai/jiuwensymbiosis">jiuwensymbiosis</a></td>
+      <td style="border: 1px solid; padding: 10px 12px; vertical-align: top;">An Agent framework for embodied intelligence, supporting configuration-agnostic capability reuse and safety control.</td>
     </tr>
     <tr>
-      <td style="border: 1px solid; padding: 10px 12px; vertical-align: top;"><a href="https://gitcode.com/openJiuwen/deepsearch">deepsearch</a></td>
-      <td style="border: 1px solid; padding: 10px 12px; vertical-align: top;">知识增强型深度检索与研究 Agent，面向搜索、推理和报告生成场景。</td>
+      <td style="border: 1px solid; padding: 10px 12px; vertical-align: top;"><a href="https://github.com/openJiuwen-ai/deepsearch">deepsearch</a></td>
+      <td style="border: 1px solid; padding: 10px 12px; vertical-align: top;">A knowledge-augmented deep retrieval and research Agent for search, reasoning, and report-generation scenarios.</td>
     </tr>
     <tr>
       <td style="border: 1px solid; padding: 10px 12px; font-weight: 700; vertical-align: middle;">SkillHub</td>
-      <td style="border: 1px solid; padding: 10px 12px; vertical-align: top;"><a href="https://gitcode.com/openJiuwen/skillhub">skillhub</a></td>
-      <td style="border: 1px solid; padding: 10px 12px; vertical-align: top;">Skill 托管与分发平台，支持 Skill 发布、版本管理、检索下载、共享复用及私有化部署。</td>
+      <td style="border: 1px solid; padding: 10px 12px; vertical-align: top;"><a href="https://github.com/openJiuwen-ai/skillhub">skillhub</a></td>
+      <td style="border: 1px solid; padding: 10px 12px; vertical-align: top;">A Skill hosting and distribution platform, supporting Skill publishing, version management, search and download, shared reuse, and private deployment.</td>
     </tr>
     <tr>
       <td style="border: 1px solid; padding: 10px 12px; font-weight: 700; vertical-align: middle;">Agent Studio</td>
-      <td style="border: 1px solid; padding: 10px 12px; vertical-align: top;"><a href="https://gitcode.com/openJiuwen/agent-studio">agent-studio</a></td>
-      <td style="border: 1px solid; padding: 10px 12px; vertical-align: top;">一站式可视化 Agent 开发平台，支持 Agent 编辑、工作流编排、资源配置、Prompt 调优与在线调试。</td>
+      <td style="border: 1px solid; padding: 10px 12px; vertical-align: top;"><a href="https://github.com/openJiuwen-ai/agent-studio">agent-studio</a></td>
+      <td style="border: 1px solid; padding: 10px 12px; vertical-align: top;">A one-stop visual Agent development platform, supporting Agent editing, workflow orchestration, resource configuration, prompt tuning, and online debugging.</td>
     </tr>
     <tr>
       <td rowspan="4" style="border: 1px solid; padding: 10px 12px; font-weight: 700; vertical-align: middle;">Agent Framework</td>
       <td style="border: 1px solid; padding: 10px 12px; vertical-align: top;">agent-gateway</td>
-      <td style="border: 1px solid; padding: 10px 12px; vertical-align: top;">统一接入网关，提供 Channel 管理、消息处理、定时任务与心跳等能力，当前 Opening Soon。</td>
+      <td style="border: 1px solid; padding: 10px 12px; vertical-align: top;">A unified access gateway providing channel management, message processing, scheduled tasks, heartbeat, and more. Currently Opening Soon.</td>
     </tr>
     <tr>
-      <td style="border: 1px solid; padding: 10px 12px; vertical-align: top;"><a href="https://gitcode.com/openJiuwen/agent-core">agent-core</a></td>
-      <td style="border: 1px solid; padding: 10px 12px; vertical-align: top;">Python Agent SDK，提供 Agent 编排、运行时、模型、工具、检索与评测等核心能力。</td>
+      <td style="border: 1px solid; padding: 10px 12px; vertical-align: top;"><a href="https://github.com/openJiuwen-ai/agent-core">agent-core</a></td>
+      <td style="border: 1px solid; padding: 10px 12px; vertical-align: top;">The Python Agent SDK, providing core capabilities such as Agent orchestration, runtime, models, tools, retrieval, and evaluation.</td>
     </tr>
     <tr>
-      <td style="border: 1px solid; padding: 10px 12px; vertical-align: top;"><a href="https://gitcode.com/openJiuwen/agent-core-java">agent-core-java</a></td>
-      <td style="border: 1px solid; padding: 10px 12px; vertical-align: top;">Java Agent SDK，为 Java 生态提供与 Python SDK 一致的 Agent 开发能力。</td>
+      <td style="border: 1px solid; padding: 10px 12px; vertical-align: top;"><a href="https://github.com/openJiuwen-ai/agent-core-java">agent-core-java</a></td>
+      <td style="border: 1px solid; padding: 10px 12px; vertical-align: top;">The Java Agent SDK, providing the Java ecosystem with Agent development capabilities consistent with the Python SDK.</td>
     </tr>
     <tr>
-      <td style="border: 1px solid; padding: 10px 12px; vertical-align: top;"><a href="https://gitcode.com/openJiuwen/agent-memory">agent-memory</a></td>
-      <td style="border: 1px solid; padding: 10px 12px; vertical-align: top;">智能体长期记忆系统，支持记忆抽取、压缩、混合检索、沉淀构建与自主演化。</td>
+      <td style="border: 1px solid; padding: 10px 12px; vertical-align: top;"><a href="https://github.com/openJiuwen-ai/agent-memory">agent-memory</a></td>
+      <td style="border: 1px solid; padding: 10px 12px; vertical-align: top;">A long-term memory system for agents, supporting memory extraction, compression, hybrid retrieval, knowledge accumulation, and autonomous evolution.</td>
     </tr>
     <tr>
       <td rowspan="3" style="border: 1px solid; padding: 10px 12px; font-weight: 700; vertical-align: middle;">Agent Distributed Runtime</td>
-      <td style="border: 1px solid; padding: 10px 12px; vertical-align: top;"><a href="https://gitcode.com/openJiuwen/agent-runtime">agent-runtime</a></td>
-      <td style="border: 1px solid; padding: 10px 12px; vertical-align: top;">Python Agent Runtime，负责 Agent 服务化运行、会话管理与生命周期管理。</td>
+      <td style="border: 1px solid; padding: 10px 12px; vertical-align: top;"><a href="https://github.com/openJiuwen-ai/agent-runtime">agent-runtime</a></td>
+      <td style="border: 1px solid; padding: 10px 12px; vertical-align: top;">The Python Agent Runtime, responsible for service-based Agent operation, session management, and lifecycle management.</td>
     </tr>
     <tr>
-      <td style="border: 1px solid; padding: 10px 12px; vertical-align: top;"><a href="https://gitcode.com/openJiuwen/agent-runtime-java">agent-runtime-java</a></td>
-      <td style="border: 1px solid; padding: 10px 12px; vertical-align: top;">Java Agent Runtime，基于 Spring Boot 提供 Agent 服务化运行与部署能力。</td>
+      <td style="border: 1px solid; padding: 10px 12px; vertical-align: top;"><a href="https://github.com/openJiuwen-ai/agent-runtime-java">agent-runtime-java</a></td>
+      <td style="border: 1px solid; padding: 10px 12px; vertical-align: top;">The Java Agent Runtime, providing service-based Agent operation and deployment capabilities based on Spring Boot.</td>
     </tr>
     <tr>
-      <td style="border: 1px solid; padding: 10px 12px; vertical-align: top;"><a href="https://gitcode.com/openJiuwen/agent-protocol">agent-protocol</a></td>
-      <td style="border: 1px solid; padding: 10px 12px; vertical-align: top;">Agent 互操作协议 SDK，提供 MCP SDK、A2A SDK 与 A2X Registry。</td>
+      <td style="border: 1px solid; padding: 10px 12px; vertical-align: top;"><a href="https://github.com/openJiuwen-ai/agent-protocol">agent-protocol</a></td>
+      <td style="border: 1px solid; padding: 10px 12px; vertical-align: top;">An Agent interoperability protocol SDK, providing the MCP SDK, A2A SDK, and A2X Registry.</td>
     </tr>
   </tbody>
 </table>
 </div>
 
-### 遵守行为准则
+### Follow the Code of Conduct
 
-openJiuwen 是一个开源社区，它完全依赖于社区提供友好的开发和协作环境。在参与社区贡献之前，请先阅读并遵守 [openJiuwen 社区行为准则](https://gitcode.com/openjiuwen/community/tree/main/openJiuwen社区行为准则.md)。
+openJiuwen is an open-source community that relies entirely on the community to provide a friendly development and collaboration environment. Before contributing, please read and follow the [openJiuwen Community Code of Conduct](./openJiuwen社区行为准则.md).
 
-### 签署开发者贡献协议（CLA）
+### Sign the Contributor License Agreement (CLA)
 
-**重要：** 您必须首先签署完成 openJiuwen 社区"开发者贡献协议"（CLA），才能参与 openJiuwen 社区贡献。
+**Important:** You must first sign the openJiuwen community "Contributor License Agreement" (CLA) before you can contribute to the openJiuwen community.
 
-- 点击[这里](https://clasign.osinfra.cn/sign/68ee0908765718ad08bab9ee)签署 CLA
-- 详细流程请参考[签署指南](https://gitcode.com/openjiuwen/community/tree/main/cla/cla使用指南.md)
+### Find a SIG That Interests You
 
-### 找到感兴趣的 SIG
-
-SIG（Special Interest Group，特别兴趣小组）是 openJiuwen 社区的技术组织单元。如何参与 SIG，请参考 [SIG 治理章程](https://gitcode.com/openJiuwen/community/blob/main/coreteam/openJiuwen%E7%A4%BE%E5%8C%BA%E7%AB%A0%E7%A8%8B.md#sig  )。
+A SIG (Special Interest Group) is the technical organizational unit of the openJiuwen community. For how to participate in a SIG, refer to the [SIG Governance Charter](./coreteam/openJiuwen%E7%A4%BE%E5%8C%BA%E7%AB%A0%E7%A8%8B.md#sig).
 
 ---
 
-## 贡献类型
+## Types of Contributions
 
-openJiuwen 社区欢迎多种形式的贡献：
+The openJiuwen community welcomes many forms of contributions:
 
-### 代码贡献
+### Code Contributions
 
-您可以对现有代码进行评价、更改、反馈问题或贡献原创代码，我们鼓励开发者以各种方式参与代码反馈和贡献。
+You can review existing code, make changes, report issues, or contribute original code. We encourage developers to participate in code feedback and contributions in various ways.
 
-### 非代码贡献
+### Non-Code Contributions
 
-- **文档贡献**：若需要贡献文档，请参考[文档贡献指南](https://gitcode.com/openJiuwen/community/blob/main/CONTRIBUTING_zh.md)
-- **合规类问题**：若发现合规类问题，请参考[开源合规类问题管理](https://gitcode.com/openjiuwen/community/tree/main/contribute/开源合规类问题管理.md)
-- **安全类问题**：若发现安全/漏洞问题，请参考：
-  - [网络安全事件管理流程](https://gitcode.com/openjiuwen/community/tree/main/contribute/网络安全事件管理.md)
-  - [社区漏洞治理&披露](https://gitcode.com/openjiuwen/community/tree/main/contribute/社区安全漏洞治理及披露.md)
+- **Documentation contributions**: To contribute documentation, refer to the [Documentation Contribution Guide](./CONTRIBUTING_zh.md)
+- **Compliance issues**: If you find a compliance issue, refer to [Open Source Compliance Issue Management](./contribute/开源合规类问题管理.md)
+- **Security issues**: If you find a security/vulnerability issue, refer to:
+  - [Cybersecurity Incident Management Process](./contribute/网络安全事件管理.md)
+  - [Community Vulnerability Governance & Disclosure](./contribute/社区安全漏洞治理及披露.md)
 
 ---
 
-## 代码贡献流程
+## Code Contribution Workflow
 
-### 环境准备
+### Environment Setup
 
-1. **安装 Git**
-   - 针对 Git 的安装、环境配置及使用方法，请参考 GitCode 帮助中心的 [Git 知识大全](https://docs.gitcode.com/docs/help/home/general-reference/git)
+1. **Install Git**
+   - For Git installation, environment configuration, and usage, refer to GitHub's [Git documentation](https://docs.github.com/en/get-started/getting-started-with-git)
 
-2. **配置 SSH 公钥**
-   - 注册 SSH 公钥，请参考 GitCode 帮助中心的 [公钥管理](https://docs.gitcode.com/docs/help/home/user_center/security_management/ssh)
+2. **Configure Your SSH Public Key**
+   - To register an SSH public key, refer to GitHub's guide on [adding a new SSH key to your account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
 
-3. **找到感兴趣的仓库**
-   - 在 openJiuwen 的代码托管平台上找到您感兴趣的 Repository
+3. **Find a Repository That Interests You**
+   - Find a repository you're interested in on the openJiuwen code hosting platform
 
-### Fork 仓库
+### Fork the Repository
 
-1. 找到并打开对应 Repository 的首页
-2. 点击右上角的 **Fork** 按钮，按照指引，建立一个属于**个人**的云上 Fork 分支
+1. Open the home page of the corresponding repository
+2. Click the **Fork** button in the upper-right corner and follow the instructions to create a **personal** cloud fork
 
-### 克隆到本地
+### Clone Locally
 
-1. **创建本地工作目录**
+1. **Create a local working directory**
 
    ```bash
    mkdir ${your_working_dir}
    cd ${your_working_dir}
    ```
 
-2. **克隆远程仓库**
+2. **Clone the remote repository**
 
-   - 在仓库页面复制远程仓库的地址（`$remote_link`）
-   - 在本地执行克隆命令：
+   - Copy the remote repository address (`$remote_link`) from the repository page
+   - Run the clone command locally:
 
    ```bash
    git clone $remote_link
    ```
 
-### 创建开发分支
+### Create a Development Branch
 
-1. **拉分支**
+1. **Create a branch**
 
-   更新您的本地分支：
+   Update your local branch:
 
    ```bash
    git remote add origin $remote_link
@@ -189,72 +186,72 @@ openJiuwen 社区欢迎多种形式的贡献：
    git pull --rebase
    ```
 
-   基于远端 main 分支拉取本地调试分支：
+   Create a local development branch based on the remote main branch:
 
    ```bash
    git branch myfeature origin/main
    git checkout myfeature
    ```
 
-   然后在 myfeature 分支上编辑和修改代码。
+   Then edit and modify code on the `myfeature` branch.
 
 ---
 
-## 开发规范
+## Development Guidelines
 
 ### License
 
-openJiuwen 采用 [Apache License 2.0 (Apache-2.0)](https://www.apache.org/licenses/LICENSE-2.0)。
+openJiuwen is licensed under the [Apache License 2.0 (Apache-2.0)](https://www.apache.org/licenses/LICENSE-2.0).
 
-### 版权规范
+### Copyright Guidelines
 
-**重要：** 用户提交的代码必须是原创内容，不得侵犯他人知识产权。
+**Important:** Code submitted by users must be original and must not infringe on the intellectual property rights of others.
 
-- 贡献代码请遵守[许可证与版权规范](https://gitcode.com/openjiuwen/community/tree/main/contribute/许可证与版权规范.md)
-- 若新贡献代码涉及第三方开源软件引入或片段引用，请严格遵守[许可证与特殊许可证评审指导](https://gitcode.com/openjiuwen/community/tree/main/contribute/许可证与特殊许可证评审指导.md)中的要求
-- openJiuwen 有权根据相关规范修改/删除开发者贡献的内容，直至符合对应规范要求
+- When contributing code, follow the [License and Copyright Guidelines](./contribute/许可证与版权规范.md)
+- If newly contributed code involves the introduction of third-party open-source software or snippet references, strictly follow the requirements in the [License and Special License Review Guide](./contribute/许可证与特殊许可证评审指导.md)
+- openJiuwen reserves the right to modify/delete content contributed by developers as needed until it complies with the corresponding guidelines
 
-### 设计规范
+### Design Guidelines
 
-- [openJiuwen 安全设计规范](https://gitcode.com/openjiuwen/community/tree/main/contribute/style-guide/openJiuwen-security-design-guide.md)
+- [openJiuwen Security Design Guide](./contribute/style-guide/openJiuwen-security-design-guide.md)
 
-### 代码风格
+### Code Style
 
-请遵循 openJiuwen 编程规范，进行代码开发、检视，务必保持代码风格统一。
+Please follow the openJiuwen coding standards during code development and review, and be sure to keep the code style consistent.
 
-- **Python 语言编程规范**：[PEP 8](https://pep8.org/)
-- **JavaScript 语言编程规范**：[openJiuwen JavaScript 编码规范](https://gitcode.com/openjiuwen/community/tree/main/contribute/style-guide/openJiuwen-JavaScript-coding-style-guide.md)
+- **Python coding standard**: [PEP 8](https://pep8.org/)
+- **JavaScript coding standard**: [openJiuwen JavaScript Coding Style Guide](./contribute/style-guide/openJiuwen-JavaScript-coding-style-guide.md)
 
-### 提交信息规范
+### Commit Message Guidelines
 
-提交信息遵循 [Conventional Commits（约定式提交规范）](https://www.conventionalcommits.org/zh-hans/v1.0.0/)。采用此规范有助于提升提交历史的可读性，同时便于自动化工具生成变更日志。
+Commit messages follow [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/). Adopting this convention improves the readability of commit history and makes it easier for automated tools to generate changelogs.
 
-**格式：**
+**Format:**
 ```
 <type>(<scope>): <subject>
 ```
 
-注意事项：
+Notes:
 
-- 提交信息采用英文格式。
-- 通过`git rebase`将多次零散提交合并为单个原子性提交，确保主干提交历史清晰可追溯。
+- Write commit messages in English.
+- Use `git rebase` to consolidate multiple scattered commits into a single atomic commit, ensuring a clear and traceable main-branch history.
 
-**类型（type）：**
-- `feat:` 新功能
-- `fix:` 错误修复
-- `docs:` 仅文档更改
-- `style:` 不影响代码含义的更改（空格、格式等）
-- `refactor:` 既不修复错误也不添加功能的代码更改
-- `perf:` 提高性能的代码更改
-- `test:` 添加缺失的测试或更正现有测试
-- `ci:` CI 配置文件和脚本的更改
-- `chore:` 对构建过程或辅助工具和库的更改
-
-
-**范围（scope）：** 可选，表示影响的范围，如 `model`、`agent`、`workflow` 等。
+**Types:**
+- `feat:` A new feature
+- `fix:` A bug fix
+- `docs:` Documentation-only changes
+- `style:` Changes that do not affect the meaning of the code (whitespace, formatting, etc.)
+- `refactor:` A code change that neither fixes a bug nor adds a feature
+- `perf:` A code change that improves performance
+- `test:` Adding missing tests or correcting existing tests
+- `ci:` Changes to CI configuration files and scripts
+- `chore:` Changes to the build process or auxiliary tools and libraries
 
 
-**示例：**
+**Scope:** Optional; indicates the affected area, such as `model`, `agent`, `workflow`, etc.
+
+
+**Examples:**
 ```bash
 feat(model): add user authentication module
 fix(front): resolve button click event issue
@@ -263,12 +260,12 @@ style(agent): adjust code formatting to match style guide
 refactor(workflow): simplify component structure
 perf(runtime): optimize runtime performance
 test(endpoint): add unit tests for API endpoints
-ci: configure GitCode CI pipeline
+ci: configure GitHub CI pipeline
 chore: update dependencies to latest versions
 ```
 
-**复杂提交格式：**
-对于需要详细说明的提交，可以使用多行格式：
+**Complex commit format:**
+For commits that require detailed explanations, use the multi-line format:
 
 ```
 feat(core): add configuration management feature
@@ -285,105 +282,103 @@ Refs: #12345
 
 ---
 
-## 提交流程
+## Submission Workflow
 
-### 1. 在本地工作目录提交变更
+### 1. Commit Changes in Your Local Working Directory
 
 ```bash
 git add .
-git commit -sm "feat: xxx"  # 提交信息包含signoff邮箱
+git commit -sm "feat: xxx"  # Include your signoff email in the commit message
 ```
 
-您可能会在前次提交的基础上，继续编辑构建并测试更多内容，可以使用 `commit --amend` 继续添加提交。
+You may continue editing, building, and testing on top of a previous commit. Use `commit --amend` to keep adding to a commit.
 
-### 2. 将变更推送到您的远端目录
+### 2. Push Changes to Your Remote Repository
 
-准备进行审查（或只是建立工作的异地备份）时，将分支推到您的 fork 仓库：
+When you're ready for review (or just want an off-site backup of your work), push your branch to your fork:
 
 ```bash
 git push -f origin myfeature
 ```
 
-### 3. 创建 Pull Request
+### 3. Create a Pull Request
 
-1. 访问您的 Fork 仓库页面
-2. 点击 **创建 Pull Request** 按钮
-3. 选择您的功能分支生成 PR
-4. 详细操作请参考 GitCode 帮助中心的[开发协作指导](https://docs.gitcode.com/docs/help/home/org_project/pullrequests/pr-create)
+1. Visit your fork's repository page
+2. Click the **Create Pull Request** button
+3. Select your feature branch to generate the PR
+4. For detailed steps, refer to GitHub's [Creating a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) documentation
 
-**PR 描述建议包含：**
+**A PR description should include:**
 
-- 变更的目的和背景
-- 变更的详细说明
-- 测试情况
-- 相关 Issue 编号（使用 `#I12345` 格式）
+- The purpose and background of the change
+- A detailed description of the change
+- Testing status
+- Related issue number (using the `#I12345` format)
 
-### 4. 关联 Issue 与门禁构建
+### 4. Link Issues and CI Gate Builds
 
-#### 创建 Issue
+#### Create an Issue
 
-1. 找到并打开对应 Repository 的首页
-2. 选择左上角的 **Issues** 页签
-3. 点击右侧 **新建 Issue** 按钮
-4. 按照指引建立一个专属的任务，用于相关联的代码（开发特性/修改 Bug）执行 CI 门禁
+1. Open the home page of the corresponding repository
+2. Select the **Issues** tab in the upper-left corner
+3. Click the **New Issue** button on the right
+4. Follow the instructions to create a dedicated task, used to run the CI gate for the associated code (feature development / bug fix)
 
-#### 关联 Issue 与 PR
+#### Link an Issue to a PR
 
-创建 PR 或编辑已有的 PR 时，在描述框输入 `#I` + 五位 Issue ID（例如：`#I12345`），即可将 Issue 与 PR 关联。
+When creating a PR or editing an existing PR, enter `#I` + the five-digit issue ID (for example, `#I12345`) in the description box to link the issue to the PR.
 
-#### 触发代码门禁
+#### Trigger the Code Gate
 
-门禁执行完成，会在该 Issue 关联的所有 PR 中自动评论门禁执行结果。
-
----
-
-## 代码审查
-
-### PR 审查约束
-
-- 需要达到最低评审人数
-- 评审问题全部解决才能合入
-- **禁止合入自己创建的 Pull Request**
-- 合并 PR 前需确保关联的流水线任务成功运行并通过检查
-
-### CI 持续集成
-
-openJiuwen 通过持续集成（CI，Continuous Integration）及时发现代码问题，确保代码质量可靠和功能稳定：
-
-- **代码门禁**：开发者向 openJiuwen 提交代码合入申请后，会触发门禁检查，例如静态检查、代码编译、功能测试等，门禁通过后才能合入代码
-- **每日构建**：openJiuwen 的持续集成流水线每日自动执行，以便提前发现代码静态检查、编译、功能等方面的问题，及时修复问题，确保代码质量
+Once the gate finishes running, it will automatically comment the gate results on all PRs associated with the issue.
 
 ---
 
-## 社区沟通
+## Code Review
 
-### 邮件列表
+### PR Review Requirements
 
-如果您在使用 openJiuwen 过程中遇到问题，请加入邮件群组参与讨论。这是参与 openJiuwen 社区讨论的正确方式，请参考[订阅邮件列表](https://gitcode.com/openJiuwen/community/blob/main/maillist_zh.md)。
+- A minimum number of reviewers must be met
+- All review issues must be resolved before merging
+- **Merging your own Pull Request is prohibited**
+- Before merging a PR, ensure the associated pipeline tasks have run successfully and passed all checks
 
-<!-- 左右并排 -->
+### Continuous Integration (CI)
+
+openJiuwen uses Continuous Integration (CI) to detect code issues in a timely manner, ensuring reliable code quality and stable functionality:
+
+- **Code gate**: After a developer submits a code merge request to openJiuwen, a gate check is triggered—such as static checks, code compilation, and functional testing. Code can only be merged after passing the gate.
+- **Daily builds**: openJiuwen's CI pipeline runs automatically every day to detect issues in static checks, compilation, functionality, and more ahead of time, so problems can be fixed promptly and code quality is ensured.
+
+---
+
+## Community Communication
+
+### Mailing List
+
+If you encounter problems while using openJiuwen, please join the mailing group to participate in discussions. This is the proper way to participate in openJiuwen community discussions—refer to [Subscribe to the Mailing List](./maillist_zh.md).
+
+<!-- Side by side -->
 <div style="display:flex; align-items: flex-start; gap: 50px;">
     <div style="text-align: center;">
-        <img src="./images/公众号.jpg" width="200" alt="openJiuwen公众号">
-        <p>openJiuwen公众号</p>
+        <img src="./images/公众号.jpg" width="200" alt="openJiuwen Official Account">
+        <p>openJiuwen Official Account</p>
     </div>
     <div style="text-align: center;">
-        <img src="./images/视频号.jpg" width="200" alt="openJiuwen视频号">
-        <p>openJiuwen视频号</p>
+        <img src="./images/视频号.jpg" width="200" alt="openJiuwen Video Channel">
+        <p>openJiuwen Video Channel</p>
     </div>
 </div>
 
 
-### 获取帮助
+### Get Help
 
-- 查看文档：[openJiuwen 文档中心](https://gitcode.com/openjiuwen/docs)
-- 提交 Issue：在对应仓库的 Issues 页面创建问题
-- 参与讨论：通过邮件列表与社区成员交流
+- Read the docs: [openJiuwen Documentation Center](https://github.com/openJiuwen-ai/docs)
+- Submit an issue: Create an issue on the Issues page of the corresponding repository
+- Join the discussion: Communicate with community members through the mailing list
 
 ---
-本产品仅作为流程编排工具，不包含 AI 模型能力；用户在连接 AI 模型用于特定业务场景时，需自行承担欧盟 AI 法案等相关合规义务。
-## 总结
+This product serves only as a workflow orchestration tool and does not include AI model capabilities. When connecting an AI model for a specific business scenario, users must independently bear the relevant compliance obligations, such as those under the EU AI Act.
+## Summary
 
-**感谢您对 openJiuwen 社区的关注和贡献！我们期待您的参与，共同推动 AI Agent 技术的发展**。🎉
-
-
+**Thank you for your interest in and contributions to the openJiuwen community! We look forward to your participation in advancing AI Agent technology together.** 🎉

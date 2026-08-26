@@ -56,4 +56,12 @@ repositories:
     name: 丁洋凯
     orgnization: Huawei
     email: dingyangkai@huawei.com
+  - atomgit_id: zzhang-fr
+    name: ZHEN ZHANG
+    orgnization: Huawei
+    email: zhen.zhang.fr@huawei.com
+  - atomgit_id: zzhang-fr
+    name: 肖瑶
+    orgnization: Huawei
+    email: xiaoyao42@huawei.com
   

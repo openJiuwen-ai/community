@@ -1,0 +1,49 @@
+name: Bug Report
+description: 提交一个问题反馈，帮助我们改进 openJiuwen
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢你花时间反馈问题！请尽量填写以下信息，帮助我们更快定位。
+  - type: input
+    id: version
+    attributes:
+      label: 版本信息
+      description: 使用的 SDK / 组件版本号
+      placeholder: 如 0.1.9
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: 问题描述
+      description: 请清晰描述你遇到的问题
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 复现步骤
+      description: 请提供最小可复现的步骤或代码片段
+      placeholder: |
+        1. 安装 ...
+        2. 运行 ...
+        3. 观察到 ...
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期望行为
+      description: 你期望发生什么
+  - type: textarea
+    id: actual
+    attributes:
+      label: 实际行为
+      description: 实际发生了什么（可附截图/日志）
+  - type: input
+    id: environment
+    attributes:
+      label: 运行环境
+      description: 操作系统 / Python 版本等
+      placeholder: 如 Windows 11 / Python 3.10

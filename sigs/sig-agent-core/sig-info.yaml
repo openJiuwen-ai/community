@@ -32,4 +32,24 @@ repositories:
     name: lideyang
     orgnization: Huawei
     email: lideyang2@huawei.com
+  - atomgit_id: zepinzhang
+    name: zhangzepin
+    orgnization: Huawei
+    email: zhangzepin@huawei.com
+  - atomgit_id: xiaowenzihwl
+    name: hewenli
+    orgnization: Huawei
+    email: hewenli1@huawei.com
+  - atomgit_id: chenmaxqian
+    name: chenqianqian
+    orgnization: Huawei
+    email: chen.qianqian@huawei.com
+  - atomgit_id: cyz95
+    name: 曹玉哲
+    orgnization: Huawei
+    email: smile.caoyuzhe@huawei.com
+  - atomgit_id: gcw_xJSJ32Ge
+    name: wuweizhi
+    orgnization: Huawei
+    email: weizhi.wu@huawei.com
 

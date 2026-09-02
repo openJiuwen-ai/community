@@ -1,0 +1,46 @@
+name: sig-agent-infer
+description: The sig-agent-infer team is responsible for managing agent-infer
+mailing_list: NA
+meeting_url: NA
+mature_level: startup
+maintainers:
+- atomgit_id: hsliu_ustc
+  name: 刘红升
+  orgnization: Huawei
+  email: liuhongsheng4@huawei.com
+- atomgit_id: wuhang91
+  name: 吴航
+  orgnization: Huawei
+  email: wuhang6@huawei.com
+- atomgit_id: m0_37369840
+  name: 陈炜青
+  orgnization: Huawei
+  email: chenweiqing11@huawei.com
+- atomgit_id: zengchuang_personal
+  name: 曾创
+  orgnization: Huawei
+  email: zengchuang3@huawei.com
+repositories:
+- repo:
+  - openJiuwen/agent-infer
+  committers:
+  - atomgit_id: moyuu2025
+    name: 董信文
+    orgnization: Huawei
+    email: dongxinwen1@huawei.com
+  - atomgit_id: gcw_FCZfg1pT
+    name: 郑晨光
+    orgnization: Huawei
+    email: zhengchenguang1@huawei.com
+  - atomgit_id: Gaohan0625
+    name: 高寒
+    orgnization: Huawei
+    email: gaohan19@huawei.com
+  - atomgit_id: xxwrh
+    name: 王瑞海
+    orgnization: Huawei
+    email: wangruihai@huawei.com
+  - atomgit_id: wangyudasb
+    name: 王语
+    orgnization: Huawei
+    email: wangyu382@huawei.com

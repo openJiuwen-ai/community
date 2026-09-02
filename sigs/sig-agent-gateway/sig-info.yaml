@@ -1,0 +1,34 @@
+name: sig-agent-gateway
+description: The sig-agent-gateway team is responsible for manage agent-gateway
+mailing_list: NA
+meeting_url: NA
+mature_level: startup
+maintainers:
+- atomgit_id: YiyangShao
+  name: Yiyang Shao
+  orgnization: Huawei
+  email: shaoyiyang@huawei.com
+- atomgit_id: mingo007
+  name: maoqiming
+  orgnization: Huawei
+  email: maoqiming1@huawei.com
+repositories:
+- repo:
+  - openJiuwen/agent-gateway
+  committers:
+  - atomgit_id: gcw_hx9prznZ
+    name: LeeX
+    orgnization: Huawei
+    email: lixing762@huawei.com
+  - atomgit_id: yukuanj
+    name: 贾宇宽
+    orgnization: Huawei
+    email: jiayukuan@huawei.com
+  - atomgit_id: yechenzhen
+    name: yechenzhen
+    orgnization: Huawei
+    email: yechenzhen1@huawei.com
+  - atomgit_id: d-0771
+    name: D-0771
+    orgnization: Huawei
+    email: dingyichen1@huawei.com

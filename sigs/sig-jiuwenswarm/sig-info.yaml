@@ -64,3 +64,19 @@ repositories:
     name: 肖瑶
     orgnization: Huawei
     email: xiaoyao42@huawei.com
+  - atomgit_id: yangzequ
+    name: yangzequ
+    orgnization: Huawei
+    email: yangzequ1@huawei.com
+  - atomgit_id: blooms195
+    name: blooms
+    orgnization: Huawei
+    email: hulan4@huawei.com
+  - atomgit_id: deyang
+    name: lideyang
+    orgnization: Huawei
+    email: lideyang2@huawei.com
+  - atomgit_id: kdgmpw
+    name: lishuqi
+    orgnization: Huawei
+    email: lishuqi4@huawei.com

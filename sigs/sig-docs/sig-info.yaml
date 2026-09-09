@@ -23,3 +23,11 @@ repositories:
     name: renquanjia
     orgnization: Huawei
     email: renquanjia@huawei.com
+  - atomgit_id: lixiaofeng6
+    name: lixiaofeng
+    orgnization: Huawei
+    email: lixiaofeng50@huawei.com
+  - atomgit_id: zhangfuzhi
+    name: zhangfuzhi
+    orgnization: Huawei
+    email: zhangfuzhi2@huawei.com

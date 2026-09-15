@@ -4,31 +4,27 @@ mailing_list: NA
 meeting_url: NA
 mature_level: startup
 maintainers:
-- atomgit_id: viviseason930
-  name: liuxin
-  orgnization: Huawei
-  email: liuxin158@huawei.com
 - atomgit_id: zhangjiahui998
   name: zhangjiahui
   orgnization: Huawei
   email: zhangjiahui71@huawei.com
+- atomgit_id: yyyamal
+  name: shangjian
+  orgnization: Huawei
+  email: shangjian2@huawei.com
 repositories:
 - repo:
   - openJiuwen/jiuwensymbiosis
   committers:
-  - atomgit_id: yyyamal
-    name: shangjian
-    orgnization: Huawei
-    email: shangjian2@huawei.com
-  - atomgit_id: LightOfSnow
-    name: dengziyang
-    orgnization: Huawei
-    email: dengziyang3@huawei.com
   - atomgit_id: Jason_Li2887
     name: lizhixin
     orgnization: Huawei
     email: lizhixin30@huawei.com
-  - atomgit_id: rsy6318123
-    name: rensiyu
+  - atomgit_id: LightOfSnow
+    name: dengziyang
     orgnization: Huawei
-    email: rensiyu6@huawei.com
+    email: dengziyang3@huawei.com
+  - atomgit_id: jinyuanshao
+    name: shaojinyuan
+    orgnization: Huawei
+    email: shaojinyuan@huawei.com

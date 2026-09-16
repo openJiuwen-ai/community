@@ -5,11 +5,11 @@ meeting_url: NA
 mature_level: startup
 maintainers:
 - atomgit_id: xinyu-jiuwen
-  name: ZHANG, Xinyu
+  name: 张鑫宇
   orgnization: Huawei
   email: zhangxinyu35@huawei.com
 - atomgit_id: zhongykau
-  name: WANG, Yuan
+  name: Yuan W
   orgnization: Huawei
   email: yuan.wang1@huawei.com
 repositories:
@@ -17,18 +17,18 @@ repositories:
   - openJiuwen/jiuwenicode
   committers:
   - atomgit_id: shiruifeng1116
-    name: SHI, Ruifeng
+    name: shiruifeng
     orgnization: Huawei
     email: shiruifeng@huawei.com
   - atomgit_id: lamsaan_yau
-    name: QIU, Linshan
+    name: lamsaan_yau
     orgnization: Huawei
     email: qiulinshan1@huawei.com
   - atomgit_id: michaelling
-    name: LING, Michael
+    name: michaelling
     orgnization: Huawei
     email: michael.ling@huawei.com
   - atomgit_id: cychong
-    name: CHONG, Chun Yong
+    name: cychong
     orgnization: Huawei
     email: chong.chun.yong@huawei.com

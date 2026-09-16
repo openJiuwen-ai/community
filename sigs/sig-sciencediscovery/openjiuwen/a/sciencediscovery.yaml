@@ -1,0 +1,6 @@
+name: sciencediscovery
+description: ScienceDiscovery is a one‑stop AI research workspace built specifically for scientific research. Leveraging this platform.
+branches:
+- name: main
+  type: protected
+type: public

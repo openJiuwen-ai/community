@@ -1,0 +1,34 @@
+name: jiuwenicode
+description: The sig-jiuwenicode team is responsible for managing jiuwenicode
+mailing_list: NA
+meeting_url: NA
+mature_level: startup
+maintainers:
+- atomgit_id: xinyu-jiuwen
+  name: 张鑫宇
+  orgnization: Huawei
+  email: zhangxinyu35@huawei.com
+- atomgit_id: zhongykau
+  name: Yuan W
+  orgnization: Huawei
+  email: yuan.wang1@huawei.com
+repositories:
+- repo:
+  - openJiuwen/jiuwenicode
+  committers:
+  - atomgit_id: shiruifeng1116
+    name: shiruifeng
+    orgnization: Huawei
+    email: shiruifeng@huawei.com
+  - atomgit_id: lamsaan_yau
+    name: lamsaan_yau
+    orgnization: Huawei
+    email: qiulinshan1@huawei.com
+  - atomgit_id: michaelling
+    name: michaelling
+    orgnization: Huawei
+    email: michael.ling@huawei.com
+  - atomgit_id: cychong
+    name: cychong
+    orgnization: Huawei
+    email: chong.chun.yong@huawei.com

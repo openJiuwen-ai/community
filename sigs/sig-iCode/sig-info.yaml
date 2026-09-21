@@ -1,5 +1,5 @@
-name: jiuwenicode
-description: The sig-jiuwenicode team is responsible for managing jiuwenicode
+name: iCode
+description: The sig-iCode team is responsible for managing iCode
 mailing_list: NA
 meeting_url: NA
 mature_level: startup
@@ -14,7 +14,7 @@ maintainers:
   email: yuan.wang1@huawei.com
 repositories:
 - repo:
-  - openJiuwen/jiuwenicode
+  - openJiuwen/iCode
   committers:
   - atomgit_id: shiruifeng1116
     name: shiruifeng

@@ -1,8 +1,0 @@
-name: jiuwenicode
-description: Built on the openJiuwen agent-core framework, openJiuwen jiuwenicode is a coding assistant.
-branches:
-- name: develop
-  type: protected
-- name: main
-  type: protected
-type: public

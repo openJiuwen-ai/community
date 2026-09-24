@@ -1,0 +1,18 @@
+name: model-router
+description: The sig-model-router team is responsible for manage model-router
+mailing_list: NA
+meeting_url: NA
+mature_level: startup
+maintainers:
+- atomgit_id: RiverZmm
+  name: huanghe
+  orgnization: Huawei
+  email: huanghe39@huawei.com
+repositories:
+- repo:
+  - openJiuwen/model-router
+  committers:
+  - atomgit_id: RiverZmm
+    name: huanghe
+    orgnization: Huawei
+    email: huanghe39@huawei.com

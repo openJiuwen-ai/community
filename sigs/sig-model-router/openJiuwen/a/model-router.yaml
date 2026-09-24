@@ -1,0 +1,8 @@
+name: model-router
+description: Model routing kernel for openJiuwen. It selects one model from the request and a state snapshot, and leaves the model call to the host.
+branches:
+- name: develop
+  type: protected
+- name: main
+  type: protected
+type: public

@@ -1,0 +1,22 @@
+name: sig-agent-plugin
+description: The sig-agent-plugin team is responsible for manage agent-plugin
+mailing_list: NA
+meeting_url: NA
+mature_level: startup
+maintainers:
+- atomgit_id: lzkfyr_hxh
+  name: huaxiaohan
+  orgnization: Huawei
+  email: huaxiaohan1@huawei.com
+repositories:
+- repo:
+  - openJiuwen/agent-plugin
+  committers:
+  - atomgit_id: For_YL
+    name: zhangtangwei
+    orgnization: Huawei
+    email: zhangtangwei@huawei.com
+  - atomgit_id: zhouyuhw
+    name: zhouyu
+    orgnization: Huawei
+    email: zhouyu81@huawei.com

@@ -1,0 +1,6 @@
+name: agentos-enterprise
+description: agentos-enterprise is a platform for managing and deploying AI agents, built for enterprise-level distributed scenarios.
+branches:
+- name: main
+  type: protected
+type: public

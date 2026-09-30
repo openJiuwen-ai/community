@@ -1,0 +1,35 @@
+name: agentos-enterprise
+description: The sig-agentos-enterprise team is responsible for manage agentos-enterprise
+mailing_list: NA
+meeting_url: NA
+mature_level: startup
+maintainers:
+- atomgit_id: liufangchao
+  name: 刘方超
+  orgnization: Huawei
+  email: liufangchao@huawei.com
+- atomgit_id: xinyu-jiuwen
+  name: 张鑫宇
+  orgnization: Huawei
+  email: zhangxinyu35@huawei.com
+- atomgit_id: slichengsong
+  name: 宋丽成
+  orgnization: Huawei
+  email: slicheng.song@huawei.com
+repositories:
+- repo:
+  - openJiuwen/agentos-enterprise
+  committers:
+  - atomgit_id: luozhancheng
+    name: 罗站城
+    email: luozhancheng@huawei.com
+  - atomgit_id: yechenzhen
+    name: 叶辰臻
+    email: yechenzhen1@huawei.com
+  - atomgit_id: lsq1997
+    name: 李书棋
+    email: lishuqi4@huawei.com
+  - atomgit_id: zhaozixuan
+    name: 赵子轩
+    orgnization: Huawei
+    email: zhaozixuan2@huawei.com

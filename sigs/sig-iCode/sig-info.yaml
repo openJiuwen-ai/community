@@ -12,6 +12,14 @@ maintainers:
   name: Yuan W
   orgnization: Huawei
   email: yuan.wang1@huawei.com
+- atomgit_id: Ox7c13
+  name: 柒才
+  orgnization: Huawei
+  email: liujiaqi101@huawei.com
+- atomgit_id: Kui-Liu
+  name: Kui LIU
+  orgnization: Huawei
+  email: kui.liu@huawei.com
 repositories:
 - repo:
   - openJiuwen/iCode
@@ -32,3 +40,19 @@ repositories:
     name: cychong
     orgnization: Huawei
     email: chong.chun.yong@huawei.com
+  - atomgit_id: Rickypan
+    name: ppnn13_
+    orgnization: Huawei
+    email: panruiqi@huawei.com
+  - atomgit_id: zhuyu40102
+    name: zhuyu40102
+    orgnization: Huawei
+    email: zhuyu14@huawei.com
+  - atomgit_id: nanzifan
+    name: gcw_orqx5ub9
+    orgnization: huawei
+    email: nanzifan@huawei.com
+  - atomgit_id: mqh_iCode5127
+    name: mqh_iCode5127
+    orgnization: huawei
+    email: maoqiheng2@huawei.com

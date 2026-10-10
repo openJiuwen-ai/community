@@ -52,4 +52,12 @@ repositories:
     name: wuweizhi
     orgnization: Huawei
     email: weizhi.wu@huawei.com
+  - atomgit_id: douran
+    name: douran
+    orgnization: Huawei
+    email: douran1@huawei.com
+  - atomgit_id: zhangyaomaggie
+    name: zhangyao
+    orgnization: Huawei
+    email: zhangyao128@huawei.com
 

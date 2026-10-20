@@ -1,0 +1,26 @@
+name: sig-agent-insight
+description: The sig-agent-insight team maintains the Agent Insight AgentOps platform, covering agent observability, evaluation, diagnosis, optimization, and reliability.
+mailing_list: NA
+meeting_url: NA
+mature_level: startup
+maintainers:
+- atomgit_id: leon-wang2021
+  name: 王磊
+  orgnization: Huawei
+  email: wanglei177@huawei.com
+- atomgit_id: sparklezfl
+  name: 张丰来
+  orgnization: Huawei
+  email: sparklezfl@163.com
+repositories:
+- repo:
+  - openJiuwen/agent-insight
+  committers:
+  - atomgit_id: sparklezfl
+    name: 张丰来
+    orgnization: Huawei
+    email: sparklezfl@163.com
+  - atomgit_id: gyctl
+    name: 郭一臣
+    orgnization: Huawei
+    email: guoyichen3@huawei.com

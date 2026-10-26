@@ -1,0 +1,8 @@
+name: computer-use
+description: Computer Use engine for openJiuwen. Native desktop drivers for macOS and Windows with a Computer/App/Element SDK that lets agents observe and operate application windows.
+branches:
+- name: develop
+  type: protected
+- name: main
+  type: protected
+type: public

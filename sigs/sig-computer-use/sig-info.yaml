@@ -1,0 +1,18 @@
+name: sig-computer-use
+description: The sig-computer-use team is responsible for manage computer-use
+mailing_list: NA
+meeting_url: NA
+mature_level: startup
+maintainers:
+- atomgit_id: blooms195
+  name: hulan
+  orgnization: Huawei
+  email: hulan4@huawei.com
+repositories:
+- repo:
+  - openJiuwen/computer-use
+  committers:
+  - atomgit_id: blooms195
+    name: hulan
+    orgnization: Huawei
+    email: hulan4@huawei.com

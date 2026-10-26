@@ -16,3 +16,7 @@ repositories:
     name: hulan
     orgnization: Huawei
     email: hulan4@huawei.com
+  - atomgit_id: xutuo
+    name: xutuo
+    orgnization: Huawei
+    email: xutuo6@huawei.com

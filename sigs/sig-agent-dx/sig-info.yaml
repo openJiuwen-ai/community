@@ -1,0 +1,34 @@
+name: sig-agent-dx
+description: The sig-agent-dx team is responsible for managing agent-dx
+mailing_list: NA
+meeting_url: NA
+mature_level: startup
+maintainers:
+- atomgit_id: luozhancheng
+  name: 罗站城
+  orgnization: Huawei
+  email: luozhancheng@huawei.com
+- atomgit_id: lzkfyr_hxh
+  name: lzkfyr_hxh
+  orgnization: Huawei
+  email: huaxiaohan1@huawei.com
+- atomgit_id: robbluo
+  name: luowenyu
+  orgnization: Huawei
+  email: luo1442@gmail.com
+repositories:
+- repo:
+  - openJiuwen/agent-dx
+  committers:
+  - atomgit_id: zhouyuhw
+    name: 周宇
+    orgnization: Huawei
+    email: zhouyu81@huawei.com
+  - atomgit_id: neatline
+    name: fuyipeng
+    orgnization: Huawei
+    email: fuyipeng3@huawei.com
+  - atomgit_id: slichengsong
+    name: 宋丽成
+    orgnization: Huawei
+    email: slicheng.song@huawei.com

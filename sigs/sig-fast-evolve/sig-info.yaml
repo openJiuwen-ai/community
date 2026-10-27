@@ -1,0 +1,30 @@
+name: sig-fast-evolve
+description: The sig-fast-evolve team is responsible for manage FAST-Evolve
+mailing_list: NA
+meeting_url: NA
+mature_level: startup
+maintainers:
+- atomgit_id: tongl
+  name: tongl
+  orgnization: Huawei
+  email: liutong66@huawei.com
+- atomgit_id: PsyAbyss
+  name: PsyAbyss
+  orgnization: Huawei
+  email: aizhengyang@huawei.com
+repositories:
+- repo:
+  - openJiuwen/FAST-Evolve
+  committers:
+  - atomgit_id: tongl
+    name: tongl
+    orgnization: Huawei
+    email: liutong66@huawei.com
+  - atomgit_id: PsyAbyss
+    name: PsyAbyss
+    orgnization: Huawei
+    email: aizhengyang@huawei.com
+  - atomgit_id: Strawcat
+    name: 唐静娴
+    orgnization: Huawei
+    email: tangjingxian2@huawei.com

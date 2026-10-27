@@ -1,0 +1,6 @@
+name: FAST-Evolve
+description: FAST-Evolve is an all-in-one agentic evolution toolchain for algorithm optimization.
+branches:
+- name: main
+  type: protected
+type: public

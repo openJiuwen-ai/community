@@ -1,0 +1,8 @@
+name: agent-security
+description: Agent Security is openJiuwen's collection of security capabilities for Agent scenarios. It focuses on Agent behavior detection, isolated execution, security auditing, and related areas, providing full-chain defense-in-depth for Agents.
+branches:
+- name: develop
+  type: protected
+- name: main
+  type: protected
+type: public

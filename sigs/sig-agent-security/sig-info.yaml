@@ -1,0 +1,30 @@
+name: sig-agent-security
+description: The sig-agent-security team is responsible for manage agent-security.
+mailing_list: NA
+meeting_url: NA
+mature_level: startup
+maintainers:
+- atomgit_id: fujilie
+  name: 吉烈
+  orgnization: Huawei
+  email: fujilie@huawei.com
+- atomgit_id: yyuse
+  name: yyuse
+  orgnization: Huawei
+  email: yangyuan24@huawei.com
+repositories:
+- repo:
+  - openJiuwen/agent-security
+  committers:
+  - atomgit_id: caozhenhua0000
+    name: caozhenhua0000
+    orgnization: Huawei
+    email: caozhenhua2@huawei.com
+  - atomgit_id: zhengshangyi
+    name: zhengshangyi
+    orgnization: Huawei
+    email: zhengshangyi@huawei.com
+  - atomgit_id: yuzengjie01
+    name: 尉增杰
+    orgnization: Huawei
+    email: yuzengjie@huawei.com

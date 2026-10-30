@@ -1,0 +1,8 @@
+name: DataSwarm
+description: Built on the openJiuwen JiuwenSwarm, openJiuwen DataSwarm is a Data Agent.
+branches:
+- name: develop
+  type: protected
+- name: main
+  type: protected
+type: public

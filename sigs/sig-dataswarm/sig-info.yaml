@@ -1,0 +1,35 @@
+name: sig-dataswarm
+description: The sig-dataswarm team is responsible for managing DataSwarm
+mailing_list: NA
+meeting_url: NA
+mature_level: startup
+maintainers:
+- atomgit_id: xinyu-jiuwen
+  name: 张鑫宇
+  orgnization: Huawei & Renmin University of China
+  email: zhangxinyu35@huawei.com & zhangxinyu1995@ruc.edu.cn
+- atomgit_id: youchhhh
+  name: youchhhh
+  orgnization: Huawei
+  email: youchao8@huawei.com
+repositories:
+- repo:
+  - openJiuwen/DataSwarm
+  committers:
+  - atomgit_id: SincoTeng
+    name: SincoTeng
+    orgnization: Huawei
+    email: tengxinke1@huawei.com
+  - atomgit_id: qq_22408539
+    name: Liuliuliu
+    orgnization: Huawei
+    email: liuyongxiang5@huawei.com
+  - atomgit_id: wjy_project
+    name: wjy
+    orgnization: Huawei
+    email: wujiayou@huawei.com
+  - atomgit_id: yuhangye
+    name: yuhangye
+    orgnization: Huawei
+    email: yeyuhang@huawei.com
+

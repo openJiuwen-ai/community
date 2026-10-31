@@ -32,3 +32,11 @@ repositories:
     name: 宋丽成
     orgnization: Huawei
     email: slicheng.song@huawei.com
+  - atomgit_id: tianmengyue
+    name: tianmengyue
+    orgnization: Huawei
+    email: tianmengyue@huawei.com
+  - atomgit_id: linziqi_qwer
+    name: linziqi
+    orgnization: Huawei
+    email: linziqi1@huawei.com

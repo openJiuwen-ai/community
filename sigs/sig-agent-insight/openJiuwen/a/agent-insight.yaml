@@ -1,0 +1,6 @@
+name: agent-insight
+description: Agent Insight is an AgentOps platform providing end-to-end tracing, multidimensional evaluation, intelligent diagnosis, skill optimization, fault injection, and runtime reliability for AI agents.
+branches:
+- name: master
+  type: protected
+type: private

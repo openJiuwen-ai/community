@@ -84,7 +84,7 @@
 | 7.3 | examples 每个目录有 README | 【规则】 | [ ] | 运行命令、预期输出 |
 | 7.4 | 文档链接有效性已校验 | 【建议】 | [ ] | 无死链接 |
 | 7.5 | 功能 PR 带文档更新 | 【规则】 | [ ] | CI 卡控或 review 检查 |
-| 7.6 | SECURITY.md 存在 | 【建议】 | [ ] | 可选：安全策略；参考 https://gitcode.com/openJiuwen/skillhub/blob/develop/SECURITY.md |
+| 7.6 | SECURITY.md 存在 | 【建议】 | [ ] | 可选：安全策略；参考 https://atomgit.com/openJiuwen/skillhub/blob/develop/SECURITY.md |
 
 ## 自查结果汇总
 

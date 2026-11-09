@@ -1,6 +1,6 @@
 # 贡献代码
 
-[View English](https://gitcode.com/openJiuwen/community/blob/main/CONTRIBUTING_zh.md)
+[View English](https://atomgit.com/openJiuwen/community/blob/main/CONTRIBUTING_zh.md)
 
 欢迎参与openJiuwen代码贡献。您可以对现有代码进行评价、更改、反馈问题或贡献原创code，我们鼓励开发者以各种方式参与code反馈和贡献。
 
@@ -10,12 +10,12 @@
 
 ## 版权规范
 
-用户提交的代码必须是原创内容，不得侵犯他人知识产权，贡献代码请遵守[许可证与版权规范](https://gitcode.com/openjiuwen/community/tree/main/contribute/许可证与版权规范.md)。若新贡献代码涉及第三方开源软件引入或片段引用，请严格遵守[许可证与特殊许可证指引](https://gitcode.com/openjiuwen/community/tree/main/contribute/许可证与特殊许可证评审指导.md)中的要求。
+用户提交的代码必须是原创内容，不得侵犯他人知识产权，贡献代码请遵守[许可证与版权规范](https://atomgit.com/openJiuwen/community/tree/main/contribute/许可证与版权规范.md)。若新贡献代码涉及第三方开源软件引入或片段引用，请严格遵守[许可证与特殊许可证指引](https://atomgit.com/openJiuwen/community/tree/main/contribute/许可证与特殊许可证评审指导.md)中的要求。
 
 openJiuwen有权根据相关规范修改/删除开发者贡献的内容，直至符合对应规范要求。
 
 ## 设计规范
-- [openJiuwen安全设计规范](https://gitcode.com/openJiuwen/community/tree/main/contribute/style-guide/openJiuwen-security-design-guide.md)
+- [openJiuwen安全设计规范](https://atomgit.com/openJiuwen/community/tree/main/contribute/style-guide/openJiuwen-security-design-guide.md)
 
 
 ## 代码风格
@@ -24,7 +24,7 @@ openJiuwen有权根据相关规范修改/删除开发者贡献的内容，直至
 
 - [Python语言编程规范](https://pep8.org/)
 
-- [JavaScript语言编程规范](https://gitcode.com/openjiuwen/community/tree/main/contribute/style-guide/openJiuwen-JavaScript-coding-style-guide.md)
+- [JavaScript语言编程规范](https://atomgit.com/openJiuwen/community/tree/main/contribute/style-guide/openJiuwen-JavaScript-coding-style-guide.md)
 
   
 
@@ -141,7 +141,7 @@ openJiuwen有权根据相关规范修改/删除开发者贡献的内容，直至
 
 ### 将Issue与PR关联
 
-创建PR或编辑已有的PR时，描述框输入\#+I+五位Issue ID，即可将Issue与PR关联。
+创建PR或编辑已有的PR时，描述框输入 `#` + Issue 编号（例如 `#82`），即可将Issue与PR关联。
 
 **约束：**
 

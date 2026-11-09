@@ -12,7 +12,7 @@ These guidelines apply only to the project code distributed within the openJiuwe
 
 openJiuwen project: openJiuwen is an open-source project incubated and operated by Huawei. Its goal is to provide an open, open-source intelligent-agent development and runtime framework for the AI era, enabling industries across all sectors to rapidly and at high quality deploy AI agents, and to benefit human society through AI.
 
-Community hosting address of the openJiuwen project: https://gitcode.com/openJiuwen.
+Community hosting address of the openJiuwen project: https://atomgit.com/openJiuwen.
 
 openJiuwen project contributed code: Code for which the contributor holds the copyright and that is contributed to the openJiuwen project, and that is distributed by the openJiuwen project at the project's community hosting address.
 

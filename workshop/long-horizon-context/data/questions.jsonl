@@ -1,0 +1,38 @@
+{"fact_id": "F001", "fact_type": "order_file", "question": "订单 ORD-2026-00100 的原始文件路径是什么？", "answer": "/data/orders/2026/batch-1/order_00100.csv"}
+{"fact_id": "F002", "fact_type": "order_file", "question": "订单 ORD-2026-00101 的原始文件路径是什么？", "answer": "/data/orders/2026/batch-2/order_00101.csv"}
+{"fact_id": "F003", "fact_type": "order_file", "question": "订单 ORD-2026-00102 的原始文件路径是什么？", "answer": "/data/orders/2026/batch-3/order_00102.csv"}
+{"fact_id": "F004", "fact_type": "order_file", "question": "订单 ORD-2026-00103 的原始文件路径是什么？", "answer": "/data/orders/2026/batch-4/order_00103.csv"}
+{"fact_id": "F005", "fact_type": "order_file", "question": "订单 ORD-2026-00104 的原始文件路径是什么？", "answer": "/data/orders/2026/batch-5/order_00104.csv"}
+{"fact_id": "F006", "fact_type": "order_file", "question": "订单 ORD-2026-00105 的原始文件路径是什么？", "answer": "/data/orders/2026/batch-6/order_00105.csv"}
+{"fact_id": "F007", "fact_type": "order_file", "question": "订单 ORD-2026-00106 的原始文件路径是什么？", "answer": "/data/orders/2026/batch-7/order_00106.csv"}
+{"fact_id": "F008", "fact_type": "order_file", "question": "订单 ORD-2026-00107 的原始文件路径是什么？", "answer": "/data/orders/2026/batch-8/order_00107.csv"}
+{"fact_id": "F009", "fact_type": "constraint", "question": "单笔退款金额上限是多少？", "answer": "1200 CNY"}
+{"fact_id": "F010", "fact_type": "constraint", "question": "对账任务的截止时间是什么？", "answer": "2026-12-31 18:00"}
+{"fact_id": "F011", "fact_type": "constraint", "question": "失败重试次数上限是多少？", "answer": "3 次"}
+{"fact_id": "F012", "fact_type": "constraint", "question": "差异率告警阈值是多少？", "answer": "0.5%"}
+{"fact_id": "F013", "fact_type": "constraint", "question": "单批处理订单数量上限是多少？", "answer": "500 笔"}
+{"fact_id": "F014", "fact_type": "constraint", "question": "退款审批金额上限是多少？", "answer": "8000 CNY"}
+{"fact_id": "F015", "fact_type": "constraint", "question": "库存回滚窗口是多少小时？", "answer": "24 小时"}
+{"fact_id": "F016", "fact_type": "constraint", "question": "审计日志保留期限是多少天？", "answer": "180 天"}
+{"fact_id": "F017", "fact_type": "error_code", "question": "错误码 E4031 表示什么问题？", "answer": "订单状态不一致"}
+{"fact_id": "F018", "fact_type": "error_code", "question": "错误码 E5022 表示什么问题？", "answer": "库存锁定失败"}
+{"fact_id": "F019", "fact_type": "error_code", "question": "错误码 E4001 表示什么问题？", "answer": "文件校验失败"}
+{"fact_id": "F020", "fact_type": "error_code", "question": "错误码 E4090 表示什么问题？", "answer": "重复退款"}
+{"fact_id": "F021", "fact_type": "error_code", "question": "错误码 E5012 表示什么问题？", "answer": "对账超时"}
+{"fact_id": "F022", "fact_type": "error_code", "question": "错误码 E4033 表示什么问题？", "answer": "权限不足"}
+{"fact_id": "F023", "fact_type": "endpoint", "question": "对账接口的路径是什么？", "answer": "/api/v2/orders/reconcile"}
+{"fact_id": "F024", "fact_type": "endpoint", "question": "退款接口的路径是什么？", "answer": "/api/v2/orders/refund"}
+{"fact_id": "F025", "fact_type": "endpoint", "question": "库存回滚接口的路径是什么？", "answer": "/api/v2/stock/rollback"}
+{"fact_id": "F026", "fact_type": "endpoint", "question": "审计报告接口的路径是什么？", "answer": "/api/v2/audit/report"}
+{"fact_id": "F027", "fact_type": "endpoint", "question": "归档接口的路径是什么？", "answer": "/api/v2/archive/batch"}
+{"fact_id": "F028", "fact_type": "storage", "question": "对账明细表名是什么？", "answer": "ods_order_detail_2026"}
+{"fact_id": "F029", "fact_type": "storage", "question": "退款流水表名是什么？", "answer": "dwd_refund_ledger"}
+{"fact_id": "F030", "fact_type": "storage", "question": "差异汇总表名是什么？", "answer": "dws_reconcile_diff"}
+{"fact_id": "F031", "fact_type": "storage", "question": "订单状态维表名是什么？", "answer": "dim_order_status"}
+{"fact_id": "F032", "fact_type": "storage", "question": "批处理参数 reconcile.batch_size 的值是多少？", "answer": "reconcile.batch_size=64"}
+{"fact_id": "F033", "fact_type": "metric", "question": "本次对账差异率是多少？", "answer": "0.37%"}
+{"fact_id": "F034", "fact_type": "metric", "question": "退款成功率是多少？", "answer": "99.62%"}
+{"fact_id": "F035", "fact_type": "metric", "question": "平均对账耗时是多少秒？", "answer": "42 秒"}
+{"fact_id": "F036", "fact_type": "metric", "question": "库存回滚延迟是多少小时？", "answer": "3.5 小时"}
+{"fact_id": "F037", "fact_type": "metric", "question": "审计覆盖率是多少？", "answer": "100%"}
+{"fact_id": "F038", "fact_type": "metric", "question": "异常订单占比是多少？", "answer": "1.8%"}

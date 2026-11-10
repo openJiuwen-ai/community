@@ -1,0 +1,1767 @@
+{
+  "tokenizer": "cl100k_base",
+  "full_tokens": 61252,
+  "baseline_accuracy": 1.0,
+  "results": [
+    {
+      "method": "a",
+      "budget": 2000,
+      "token_count": 1991,
+      "full_tokens": 61252,
+      "reduction": 0.9674949389407693,
+      "accuracy": 0.02631578947368421,
+      "baseline_accuracy": 1.0,
+      "accuracy_drop": 0.9736842105263158,
+      "passed": false,
+      "retained_spans": 10,
+      "dropped_stats": {
+        "total_steps": 280,
+        "retained_steps": 10,
+        "dropped_steps_by_kind": {
+          "recent_verbatim": 46,
+          "window_summary": 225
+        },
+        "dropped_chars_by_kind": {
+          "recent_verbatim": 13160,
+          "window_summary": 24109
+        }
+      },
+      "elapsed_seconds": 0.011356980000527983,
+      "results": [
+        {
+          "fact_id": "F001",
+          "fact_type": "order_file",
+          "question": "订单 ORD-2026-00100 的原始文件路径是什么？",
+          "expected": "/data/orders/2026/batch-1/order_00100.csv",
+          "hit": false
+        },
+        {
+          "fact_id": "F002",
+          "fact_type": "order_file",
+          "question": "订单 ORD-2026-00101 的原始文件路径是什么？",
+          "expected": "/data/orders/2026/batch-2/order_00101.csv",
+          "hit": false
+        },
+        {
+          "fact_id": "F003",
+          "fact_type": "order_file",
+          "question": "订单 ORD-2026-00102 的原始文件路径是什么？",
+          "expected": "/data/orders/2026/batch-3/order_00102.csv",
+          "hit": false
+        },
+        {
+          "fact_id": "F004",
+          "fact_type": "order_file",
+          "question": "订单 ORD-2026-00103 的原始文件路径是什么？",
+          "expected": "/data/orders/2026/batch-4/order_00103.csv",
+          "hit": false
+        },
+        {
+          "fact_id": "F005",
+          "fact_type": "order_file",
+          "question": "订单 ORD-2026-00104 的原始文件路径是什么？",
+          "expected": "/data/orders/2026/batch-5/order_00104.csv",
+          "hit": false
+        },
+        {
+          "fact_id": "F006",
+          "fact_type": "order_file",
+          "question": "订单 ORD-2026-00105 的原始文件路径是什么？",
+          "expected": "/data/orders/2026/batch-6/order_00105.csv",
+          "hit": false
+        },
+        {
+          "fact_id": "F007",
+          "fact_type": "order_file",
+          "question": "订单 ORD-2026-00106 的原始文件路径是什么？",
+          "expected": "/data/orders/2026/batch-7/order_00106.csv",
+          "hit": false
+        },
+        {
+          "fact_id": "F008",
+          "fact_type": "order_file",
+          "question": "订单 ORD-2026-00107 的原始文件路径是什么？",
+          "expected": "/data/orders/2026/batch-8/order_00107.csv",
+          "hit": false
+        },
+        {
+          "fact_id": "F009",
+          "fact_type": "constraint",
+          "question": "单笔退款金额上限是多少？",
+          "expected": "1200 CNY",
+          "hit": false
+        },
+        {
+          "fact_id": "F010",
+          "fact_type": "constraint",
+          "question": "对账任务的截止时间是什么？",
+          "expected": "2026-12-31 18:00",
+          "hit": false
+        },
+        {
+          "fact_id": "F011",
+          "fact_type": "constraint",
+          "question": "失败重试次数上限是多少？",
+          "expected": "3 次",
+          "hit": false
+        },
+        {
+          "fact_id": "F012",
+          "fact_type": "constraint",
+          "question": "差异率告警阈值是多少？",
+          "expected": "0.5%",
+          "hit": false
+        },
+        {
+          "fact_id": "F013",
+          "fact_type": "constraint",
+          "question": "单批处理订单数量上限是多少？",
+          "expected": "500 笔",
+          "hit": false
+        },
+        {
+          "fact_id": "F014",
+          "fact_type": "constraint",
+          "question": "退款审批金额上限是多少？",
+          "expected": "8000 CNY",
+          "hit": false
+        },
+        {
+          "fact_id": "F015",
+          "fact_type": "constraint",
+          "question": "库存回滚窗口是多少小时？",
+          "expected": "24 小时",
+          "hit": false
+        },
+        {
+          "fact_id": "F016",
+          "fact_type": "constraint",
+          "question": "审计日志保留期限是多少天？",
+          "expected": "180 天",
+          "hit": false
+        },
+        {
+          "fact_id": "F017",
+          "fact_type": "error_code",
+          "question": "错误码 E4031 表示什么问题？",
+          "expected": "订单状态不一致",
+          "hit": false
+        },
+        {
+          "fact_id": "F018",
+          "fact_type": "error_code",
+          "question": "错误码 E5022 表示什么问题？",
+          "expected": "库存锁定失败",
+          "hit": false
+        },
+        {
+          "fact_id": "F019",
+          "fact_type": "error_code",
+          "question": "错误码 E4001 表示什么问题？",
+          "expected": "文件校验失败",
+          "hit": false
+        },
+        {
+          "fact_id": "F020",
+          "fact_type": "error_code",
+          "question": "错误码 E4090 表示什么问题？",
+          "expected": "重复退款",
+          "hit": false
+        },
+        {
+          "fact_id": "F021",
+          "fact_type": "error_code",
+          "question": "错误码 E5012 表示什么问题？",
+          "expected": "对账超时",
+          "hit": false
+        },
+        {
+          "fact_id": "F022",
+          "fact_type": "error_code",
+          "question": "错误码 E4033 表示什么问题？",
+          "expected": "权限不足",
+          "hit": false
+        },
+        {
+          "fact_id": "F023",
+          "fact_type": "endpoint",
+          "question": "对账接口的路径是什么？",
+          "expected": "/api/v2/orders/reconcile",
+          "hit": false
+        },
+        {
+          "fact_id": "F024",
+          "fact_type": "endpoint",
+          "question": "退款接口的路径是什么？",
+          "expected": "/api/v2/orders/refund",
+          "hit": false
+        },
+        {
+          "fact_id": "F025",
+          "fact_type": "endpoint",
+          "question": "库存回滚接口的路径是什么？",
+          "expected": "/api/v2/stock/rollback",
+          "hit": false
+        },
+        {
+          "fact_id": "F026",
+          "fact_type": "endpoint",
+          "question": "审计报告接口的路径是什么？",
+          "expected": "/api/v2/audit/report",
+          "hit": false
+        },
+        {
+          "fact_id": "F027",
+          "fact_type": "endpoint",
+          "question": "归档接口的路径是什么？",
+          "expected": "/api/v2/archive/batch",
+          "hit": false
+        },
+        {
+          "fact_id": "F028",
+          "fact_type": "storage",
+          "question": "对账明细表名是什么？",
+          "expected": "ods_order_detail_2026",
+          "hit": false
+        },
+        {
+          "fact_id": "F029",
+          "fact_type": "storage",
+          "question": "退款流水表名是什么？",
+          "expected": "dwd_refund_ledger",
+          "hit": false
+        },
+        {
+          "fact_id": "F030",
+          "fact_type": "storage",
+          "question": "差异汇总表名是什么？",
+          "expected": "dws_reconcile_diff",
+          "hit": false
+        },
+        {
+          "fact_id": "F031",
+          "fact_type": "storage",
+          "question": "订单状态维表名是什么？",
+          "expected": "dim_order_status",
+          "hit": false
+        },
+        {
+          "fact_id": "F032",
+          "fact_type": "storage",
+          "question": "批处理参数 reconcile.batch_size 的值是多少？",
+          "expected": "reconcile.batch_size=64",
+          "hit": false
+        },
+        {
+          "fact_id": "F033",
+          "fact_type": "metric",
+          "question": "本次对账差异率是多少？",
+          "expected": "0.37%",
+          "hit": false
+        },
+        {
+          "fact_id": "F034",
+          "fact_type": "metric",
+          "question": "退款成功率是多少？",
+          "expected": "99.62%",
+          "hit": false
+        },
+        {
+          "fact_id": "F035",
+          "fact_type": "metric",
+          "question": "平均对账耗时是多少秒？",
+          "expected": "42 秒",
+          "hit": false
+        },
+        {
+          "fact_id": "F036",
+          "fact_type": "metric",
+          "question": "库存回滚延迟是多少小时？",
+          "expected": "3.5 小时",
+          "hit": false
+        },
+        {
+          "fact_id": "F037",
+          "fact_type": "metric",
+          "question": "审计覆盖率是多少？",
+          "expected": "100%",
+          "hit": false
+        },
+        {
+          "fact_id": "F038",
+          "fact_type": "metric",
+          "question": "异常订单占比是多少？",
+          "expected": "1.8%",
+          "hit": true
+        }
+      ]
+    },
+    {
+      "method": "a",
+      "budget": 4000,
+      "token_count": 3982,
+      "full_tokens": 61252,
+      "reduction": 0.9349898778815385,
+      "accuracy": 0.02631578947368421,
+      "baseline_accuracy": 1.0,
+      "accuracy_drop": 0.9736842105263158,
+      "passed": false,
+      "retained_spans": 19,
+      "dropped_stats": {
+        "total_steps": 280,
+        "retained_steps": 19,
+        "dropped_steps_by_kind": {
+          "recent_verbatim": 37,
+          "window_summary": 225
+        },
+        "dropped_chars_by_kind": {
+          "recent_verbatim": 10484,
+          "window_summary": 24109
+        }
+      },
+      "elapsed_seconds": 0.012475150000682333,
+      "results": [
+        {
+          "fact_id": "F001",
+          "fact_type": "order_file",
+          "question": "订单 ORD-2026-00100 的原始文件路径是什么？",
+          "expected": "/data/orders/2026/batch-1/order_00100.csv",
+          "hit": false
+        },
+        {
+          "fact_id": "F002",
+          "fact_type": "order_file",
+          "question": "订单 ORD-2026-00101 的原始文件路径是什么？",
+          "expected": "/data/orders/2026/batch-2/order_00101.csv",
+          "hit": false
+        },
+        {
+          "fact_id": "F003",
+          "fact_type": "order_file",
+          "question": "订单 ORD-2026-00102 的原始文件路径是什么？",
+          "expected": "/data/orders/2026/batch-3/order_00102.csv",
+          "hit": false
+        },
+        {
+          "fact_id": "F004",
+          "fact_type": "order_file",
+          "question": "订单 ORD-2026-00103 的原始文件路径是什么？",
+          "expected": "/data/orders/2026/batch-4/order_00103.csv",
+          "hit": false
+        },
+        {
+          "fact_id": "F005",
+          "fact_type": "order_file",
+          "question": "订单 ORD-2026-00104 的原始文件路径是什么？",
+          "expected": "/data/orders/2026/batch-5/order_00104.csv",
+          "hit": false
+        },
+        {
+          "fact_id": "F006",
+          "fact_type": "order_file",
+          "question": "订单 ORD-2026-00105 的原始文件路径是什么？",
+          "expected": "/data/orders/2026/batch-6/order_00105.csv",
+          "hit": false
+        },
+        {
+          "fact_id": "F007",
+          "fact_type": "order_file",
+          "question": "订单 ORD-2026-00106 的原始文件路径是什么？",
+          "expected": "/data/orders/2026/batch-7/order_00106.csv",
+          "hit": false
+        },
+        {
+          "fact_id": "F008",
+          "fact_type": "order_file",
+          "question": "订单 ORD-2026-00107 的原始文件路径是什么？",
+          "expected": "/data/orders/2026/batch-8/order_00107.csv",
+          "hit": false
+        },
+        {
+          "fact_id": "F009",
+          "fact_type": "constraint",
+          "question": "单笔退款金额上限是多少？",
+          "expected": "1200 CNY",
+          "hit": false
+        },
+        {
+          "fact_id": "F010",
+          "fact_type": "constraint",
+          "question": "对账任务的截止时间是什么？",
+          "expected": "2026-12-31 18:00",
+          "hit": false
+        },
+        {
+          "fact_id": "F011",
+          "fact_type": "constraint",
+          "question": "失败重试次数上限是多少？",
+          "expected": "3 次",
+          "hit": false
+        },
+        {
+          "fact_id": "F012",
+          "fact_type": "constraint",
+          "question": "差异率告警阈值是多少？",
+          "expected": "0.5%",
+          "hit": false
+        },
+        {
+          "fact_id": "F013",
+          "fact_type": "constraint",
+          "question": "单批处理订单数量上限是多少？",
+          "expected": "500 笔",
+          "hit": false
+        },
+        {
+          "fact_id": "F014",
+          "fact_type": "constraint",
+          "question": "退款审批金额上限是多少？",
+          "expected": "8000 CNY",
+          "hit": false
+        },
+        {
+          "fact_id": "F015",
+          "fact_type": "constraint",
+          "question": "库存回滚窗口是多少小时？",
+          "expected": "24 小时",
+          "hit": false
+        },
+        {
+          "fact_id": "F016",
+          "fact_type": "constraint",
+          "question": "审计日志保留期限是多少天？",
+          "expected": "180 天",
+          "hit": false
+        },
+        {
+          "fact_id": "F017",
+          "fact_type": "error_code",
+          "question": "错误码 E4031 表示什么问题？",
+          "expected": "订单状态不一致",
+          "hit": false
+        },
+        {
+          "fact_id": "F018",
+          "fact_type": "error_code",
+          "question": "错误码 E5022 表示什么问题？",
+          "expected": "库存锁定失败",
+          "hit": false
+        },
+        {
+          "fact_id": "F019",
+          "fact_type": "error_code",
+          "question": "错误码 E4001 表示什么问题？",
+          "expected": "文件校验失败",
+          "hit": false
+        },
+        {
+          "fact_id": "F020",
+          "fact_type": "error_code",
+          "question": "错误码 E4090 表示什么问题？",
+          "expected": "重复退款",
+          "hit": false
+        },
+        {
+          "fact_id": "F021",
+          "fact_type": "error_code",
+          "question": "错误码 E5012 表示什么问题？",
+          "expected": "对账超时",
+          "hit": false
+        },
+        {
+          "fact_id": "F022",
+          "fact_type": "error_code",
+          "question": "错误码 E4033 表示什么问题？",
+          "expected": "权限不足",
+          "hit": false
+        },
+        {
+          "fact_id": "F023",
+          "fact_type": "endpoint",
+          "question": "对账接口的路径是什么？",
+          "expected": "/api/v2/orders/reconcile",
+          "hit": false
+        },
+        {
+          "fact_id": "F024",
+          "fact_type": "endpoint",
+          "question": "退款接口的路径是什么？",
+          "expected": "/api/v2/orders/refund",
+          "hit": false
+        },
+        {
+          "fact_id": "F025",
+          "fact_type": "endpoint",
+          "question": "库存回滚接口的路径是什么？",
+          "expected": "/api/v2/stock/rollback",
+          "hit": false
+        },
+        {
+          "fact_id": "F026",
+          "fact_type": "endpoint",
+          "question": "审计报告接口的路径是什么？",
+          "expected": "/api/v2/audit/report",
+          "hit": false
+        },
+        {
+          "fact_id": "F027",
+          "fact_type": "endpoint",
+          "question": "归档接口的路径是什么？",
+          "expected": "/api/v2/archive/batch",
+          "hit": false
+        },
+        {
+          "fact_id": "F028",
+          "fact_type": "storage",
+          "question": "对账明细表名是什么？",
+          "expected": "ods_order_detail_2026",
+          "hit": false
+        },
+        {
+          "fact_id": "F029",
+          "fact_type": "storage",
+          "question": "退款流水表名是什么？",
+          "expected": "dwd_refund_ledger",
+          "hit": false
+        },
+        {
+          "fact_id": "F030",
+          "fact_type": "storage",
+          "question": "差异汇总表名是什么？",
+          "expected": "dws_reconcile_diff",
+          "hit": false
+        },
+        {
+          "fact_id": "F031",
+          "fact_type": "storage",
+          "question": "订单状态维表名是什么？",
+          "expected": "dim_order_status",
+          "hit": false
+        },
+        {
+          "fact_id": "F032",
+          "fact_type": "storage",
+          "question": "批处理参数 reconcile.batch_size 的值是多少？",
+          "expected": "reconcile.batch_size=64",
+          "hit": false
+        },
+        {
+          "fact_id": "F033",
+          "fact_type": "metric",
+          "question": "本次对账差异率是多少？",
+          "expected": "0.37%",
+          "hit": false
+        },
+        {
+          "fact_id": "F034",
+          "fact_type": "metric",
+          "question": "退款成功率是多少？",
+          "expected": "99.62%",
+          "hit": false
+        },
+        {
+          "fact_id": "F035",
+          "fact_type": "metric",
+          "question": "平均对账耗时是多少秒？",
+          "expected": "42 秒",
+          "hit": false
+        },
+        {
+          "fact_id": "F036",
+          "fact_type": "metric",
+          "question": "库存回滚延迟是多少小时？",
+          "expected": "3.5 小时",
+          "hit": false
+        },
+        {
+          "fact_id": "F037",
+          "fact_type": "metric",
+          "question": "审计覆盖率是多少？",
+          "expected": "100%",
+          "hit": false
+        },
+        {
+          "fact_id": "F038",
+          "fact_type": "metric",
+          "question": "异常订单占比是多少？",
+          "expected": "1.8%",
+          "hit": true
+        }
+      ]
+    },
+    {
+      "method": "a",
+      "budget": 8000,
+      "token_count": 7964,
+      "full_tokens": 61252,
+      "reduction": 0.8699797557630771,
+      "accuracy": 0.02631578947368421,
+      "baseline_accuracy": 1.0,
+      "accuracy_drop": 0.9736842105263158,
+      "passed": false,
+      "retained_spans": 37,
+      "dropped_stats": {
+        "total_steps": 280,
+        "retained_steps": 37,
+        "dropped_steps_by_kind": {
+          "recent_verbatim": 19,
+          "window_summary": 225
+        },
+        "dropped_chars_by_kind": {
+          "recent_verbatim": 5382,
+          "window_summary": 24109
+        }
+      },
+      "elapsed_seconds": 0.015760539999973844,
+      "results": [
+        {
+          "fact_id": "F001",
+          "fact_type": "order_file",
+          "question": "订单 ORD-2026-00100 的原始文件路径是什么？",
+          "expected": "/data/orders/2026/batch-1/order_00100.csv",
+          "hit": false
+        },
+        {
+          "fact_id": "F002",
+          "fact_type": "order_file",
+          "question": "订单 ORD-2026-00101 的原始文件路径是什么？",
+          "expected": "/data/orders/2026/batch-2/order_00101.csv",
+          "hit": false
+        },
+        {
+          "fact_id": "F003",
+          "fact_type": "order_file",
+          "question": "订单 ORD-2026-00102 的原始文件路径是什么？",
+          "expected": "/data/orders/2026/batch-3/order_00102.csv",
+          "hit": false
+        },
+        {
+          "fact_id": "F004",
+          "fact_type": "order_file",
+          "question": "订单 ORD-2026-00103 的原始文件路径是什么？",
+          "expected": "/data/orders/2026/batch-4/order_00103.csv",
+          "hit": false
+        },
+        {
+          "fact_id": "F005",
+          "fact_type": "order_file",
+          "question": "订单 ORD-2026-00104 的原始文件路径是什么？",
+          "expected": "/data/orders/2026/batch-5/order_00104.csv",
+          "hit": false
+        },
+        {
+          "fact_id": "F006",
+          "fact_type": "order_file",
+          "question": "订单 ORD-2026-00105 的原始文件路径是什么？",
+          "expected": "/data/orders/2026/batch-6/order_00105.csv",
+          "hit": false
+        },
+        {
+          "fact_id": "F007",
+          "fact_type": "order_file",
+          "question": "订单 ORD-2026-00106 的原始文件路径是什么？",
+          "expected": "/data/orders/2026/batch-7/order_00106.csv",
+          "hit": false
+        },
+        {
+          "fact_id": "F008",
+          "fact_type": "order_file",
+          "question": "订单 ORD-2026-00107 的原始文件路径是什么？",
+          "expected": "/data/orders/2026/batch-8/order_00107.csv",
+          "hit": false
+        },
+        {
+          "fact_id": "F009",
+          "fact_type": "constraint",
+          "question": "单笔退款金额上限是多少？",
+          "expected": "1200 CNY",
+          "hit": false
+        },
+        {
+          "fact_id": "F010",
+          "fact_type": "constraint",
+          "question": "对账任务的截止时间是什么？",
+          "expected": "2026-12-31 18:00",
+          "hit": false
+        },
+        {
+          "fact_id": "F011",
+          "fact_type": "constraint",
+          "question": "失败重试次数上限是多少？",
+          "expected": "3 次",
+          "hit": false
+        },
+        {
+          "fact_id": "F012",
+          "fact_type": "constraint",
+          "question": "差异率告警阈值是多少？",
+          "expected": "0.5%",
+          "hit": false
+        },
+        {
+          "fact_id": "F013",
+          "fact_type": "constraint",
+          "question": "单批处理订单数量上限是多少？",
+          "expected": "500 笔",
+          "hit": false
+        },
+        {
+          "fact_id": "F014",
+          "fact_type": "constraint",
+          "question": "退款审批金额上限是多少？",
+          "expected": "8000 CNY",
+          "hit": false
+        },
+        {
+          "fact_id": "F015",
+          "fact_type": "constraint",
+          "question": "库存回滚窗口是多少小时？",
+          "expected": "24 小时",
+          "hit": false
+        },
+        {
+          "fact_id": "F016",
+          "fact_type": "constraint",
+          "question": "审计日志保留期限是多少天？",
+          "expected": "180 天",
+          "hit": false
+        },
+        {
+          "fact_id": "F017",
+          "fact_type": "error_code",
+          "question": "错误码 E4031 表示什么问题？",
+          "expected": "订单状态不一致",
+          "hit": false
+        },
+        {
+          "fact_id": "F018",
+          "fact_type": "error_code",
+          "question": "错误码 E5022 表示什么问题？",
+          "expected": "库存锁定失败",
+          "hit": false
+        },
+        {
+          "fact_id": "F019",
+          "fact_type": "error_code",
+          "question": "错误码 E4001 表示什么问题？",
+          "expected": "文件校验失败",
+          "hit": false
+        },
+        {
+          "fact_id": "F020",
+          "fact_type": "error_code",
+          "question": "错误码 E4090 表示什么问题？",
+          "expected": "重复退款",
+          "hit": false
+        },
+        {
+          "fact_id": "F021",
+          "fact_type": "error_code",
+          "question": "错误码 E5012 表示什么问题？",
+          "expected": "对账超时",
+          "hit": false
+        },
+        {
+          "fact_id": "F022",
+          "fact_type": "error_code",
+          "question": "错误码 E4033 表示什么问题？",
+          "expected": "权限不足",
+          "hit": false
+        },
+        {
+          "fact_id": "F023",
+          "fact_type": "endpoint",
+          "question": "对账接口的路径是什么？",
+          "expected": "/api/v2/orders/reconcile",
+          "hit": false
+        },
+        {
+          "fact_id": "F024",
+          "fact_type": "endpoint",
+          "question": "退款接口的路径是什么？",
+          "expected": "/api/v2/orders/refund",
+          "hit": false
+        },
+        {
+          "fact_id": "F025",
+          "fact_type": "endpoint",
+          "question": "库存回滚接口的路径是什么？",
+          "expected": "/api/v2/stock/rollback",
+          "hit": false
+        },
+        {
+          "fact_id": "F026",
+          "fact_type": "endpoint",
+          "question": "审计报告接口的路径是什么？",
+          "expected": "/api/v2/audit/report",
+          "hit": false
+        },
+        {
+          "fact_id": "F027",
+          "fact_type": "endpoint",
+          "question": "归档接口的路径是什么？",
+          "expected": "/api/v2/archive/batch",
+          "hit": false
+        },
+        {
+          "fact_id": "F028",
+          "fact_type": "storage",
+          "question": "对账明细表名是什么？",
+          "expected": "ods_order_detail_2026",
+          "hit": false
+        },
+        {
+          "fact_id": "F029",
+          "fact_type": "storage",
+          "question": "退款流水表名是什么？",
+          "expected": "dwd_refund_ledger",
+          "hit": false
+        },
+        {
+          "fact_id": "F030",
+          "fact_type": "storage",
+          "question": "差异汇总表名是什么？",
+          "expected": "dws_reconcile_diff",
+          "hit": false
+        },
+        {
+          "fact_id": "F031",
+          "fact_type": "storage",
+          "question": "订单状态维表名是什么？",
+          "expected": "dim_order_status",
+          "hit": false
+        },
+        {
+          "fact_id": "F032",
+          "fact_type": "storage",
+          "question": "批处理参数 reconcile.batch_size 的值是多少？",
+          "expected": "reconcile.batch_size=64",
+          "hit": false
+        },
+        {
+          "fact_id": "F033",
+          "fact_type": "metric",
+          "question": "本次对账差异率是多少？",
+          "expected": "0.37%",
+          "hit": false
+        },
+        {
+          "fact_id": "F034",
+          "fact_type": "metric",
+          "question": "退款成功率是多少？",
+          "expected": "99.62%",
+          "hit": false
+        },
+        {
+          "fact_id": "F035",
+          "fact_type": "metric",
+          "question": "平均对账耗时是多少秒？",
+          "expected": "42 秒",
+          "hit": false
+        },
+        {
+          "fact_id": "F036",
+          "fact_type": "metric",
+          "question": "库存回滚延迟是多少小时？",
+          "expected": "3.5 小时",
+          "hit": false
+        },
+        {
+          "fact_id": "F037",
+          "fact_type": "metric",
+          "question": "审计覆盖率是多少？",
+          "expected": "100%",
+          "hit": false
+        },
+        {
+          "fact_id": "F038",
+          "fact_type": "metric",
+          "question": "异常订单占比是多少？",
+          "expected": "1.8%",
+          "hit": true
+        }
+      ]
+    },
+    {
+      "method": "b",
+      "budget": 2000,
+      "token_count": 1957,
+      "full_tokens": 61252,
+      "reduction": 0.9680500228563965,
+      "accuracy": 1.0,
+      "baseline_accuracy": 1.0,
+      "accuracy_drop": 0.0,
+      "passed": true,
+      "retained_spans": 44,
+      "dropped_stats": {
+        "total_steps": 280,
+        "retained_steps": 44,
+        "dropped_steps_by_kind": {
+          "pending_plan": 11,
+          "recent_verbatim": 6,
+          "window_summary": 260
+        },
+        "dropped_chars_by_kind": {
+          "pending_plan": 2939,
+          "recent_verbatim": 1735,
+          "window_summary": 18922
+        }
+      },
+      "elapsed_seconds": 0.018050319999929343,
+      "results": [
+        {
+          "fact_id": "F001",
+          "fact_type": "order_file",
+          "question": "订单 ORD-2026-00100 的原始文件路径是什么？",
+          "expected": "/data/orders/2026/batch-1/order_00100.csv",
+          "hit": true
+        },
+        {
+          "fact_id": "F002",
+          "fact_type": "order_file",
+          "question": "订单 ORD-2026-00101 的原始文件路径是什么？",
+          "expected": "/data/orders/2026/batch-2/order_00101.csv",
+          "hit": true
+        },
+        {
+          "fact_id": "F003",
+          "fact_type": "order_file",
+          "question": "订单 ORD-2026-00102 的原始文件路径是什么？",
+          "expected": "/data/orders/2026/batch-3/order_00102.csv",
+          "hit": true
+        },
+        {
+          "fact_id": "F004",
+          "fact_type": "order_file",
+          "question": "订单 ORD-2026-00103 的原始文件路径是什么？",
+          "expected": "/data/orders/2026/batch-4/order_00103.csv",
+          "hit": true
+        },
+        {
+          "fact_id": "F005",
+          "fact_type": "order_file",
+          "question": "订单 ORD-2026-00104 的原始文件路径是什么？",
+          "expected": "/data/orders/2026/batch-5/order_00104.csv",
+          "hit": true
+        },
+        {
+          "fact_id": "F006",
+          "fact_type": "order_file",
+          "question": "订单 ORD-2026-00105 的原始文件路径是什么？",
+          "expected": "/data/orders/2026/batch-6/order_00105.csv",
+          "hit": true
+        },
+        {
+          "fact_id": "F007",
+          "fact_type": "order_file",
+          "question": "订单 ORD-2026-00106 的原始文件路径是什么？",
+          "expected": "/data/orders/2026/batch-7/order_00106.csv",
+          "hit": true
+        },
+        {
+          "fact_id": "F008",
+          "fact_type": "order_file",
+          "question": "订单 ORD-2026-00107 的原始文件路径是什么？",
+          "expected": "/data/orders/2026/batch-8/order_00107.csv",
+          "hit": true
+        },
+        {
+          "fact_id": "F009",
+          "fact_type": "constraint",
+          "question": "单笔退款金额上限是多少？",
+          "expected": "1200 CNY",
+          "hit": true
+        },
+        {
+          "fact_id": "F010",
+          "fact_type": "constraint",
+          "question": "对账任务的截止时间是什么？",
+          "expected": "2026-12-31 18:00",
+          "hit": true
+        },
+        {
+          "fact_id": "F011",
+          "fact_type": "constraint",
+          "question": "失败重试次数上限是多少？",
+          "expected": "3 次",
+          "hit": true
+        },
+        {
+          "fact_id": "F012",
+          "fact_type": "constraint",
+          "question": "差异率告警阈值是多少？",
+          "expected": "0.5%",
+          "hit": true
+        },
+        {
+          "fact_id": "F013",
+          "fact_type": "constraint",
+          "question": "单批处理订单数量上限是多少？",
+          "expected": "500 笔",
+          "hit": true
+        },
+        {
+          "fact_id": "F014",
+          "fact_type": "constraint",
+          "question": "退款审批金额上限是多少？",
+          "expected": "8000 CNY",
+          "hit": true
+        },
+        {
+          "fact_id": "F015",
+          "fact_type": "constraint",
+          "question": "库存回滚窗口是多少小时？",
+          "expected": "24 小时",
+          "hit": true
+        },
+        {
+          "fact_id": "F016",
+          "fact_type": "constraint",
+          "question": "审计日志保留期限是多少天？",
+          "expected": "180 天",
+          "hit": true
+        },
+        {
+          "fact_id": "F017",
+          "fact_type": "error_code",
+          "question": "错误码 E4031 表示什么问题？",
+          "expected": "订单状态不一致",
+          "hit": true
+        },
+        {
+          "fact_id": "F018",
+          "fact_type": "error_code",
+          "question": "错误码 E5022 表示什么问题？",
+          "expected": "库存锁定失败",
+          "hit": true
+        },
+        {
+          "fact_id": "F019",
+          "fact_type": "error_code",
+          "question": "错误码 E4001 表示什么问题？",
+          "expected": "文件校验失败",
+          "hit": true
+        },
+        {
+          "fact_id": "F020",
+          "fact_type": "error_code",
+          "question": "错误码 E4090 表示什么问题？",
+          "expected": "重复退款",
+          "hit": true
+        },
+        {
+          "fact_id": "F021",
+          "fact_type": "error_code",
+          "question": "错误码 E5012 表示什么问题？",
+          "expected": "对账超时",
+          "hit": true
+        },
+        {
+          "fact_id": "F022",
+          "fact_type": "error_code",
+          "question": "错误码 E4033 表示什么问题？",
+          "expected": "权限不足",
+          "hit": true
+        },
+        {
+          "fact_id": "F023",
+          "fact_type": "endpoint",
+          "question": "对账接口的路径是什么？",
+          "expected": "/api/v2/orders/reconcile",
+          "hit": true
+        },
+        {
+          "fact_id": "F024",
+          "fact_type": "endpoint",
+          "question": "退款接口的路径是什么？",
+          "expected": "/api/v2/orders/refund",
+          "hit": true
+        },
+        {
+          "fact_id": "F025",
+          "fact_type": "endpoint",
+          "question": "库存回滚接口的路径是什么？",
+          "expected": "/api/v2/stock/rollback",
+          "hit": true
+        },
+        {
+          "fact_id": "F026",
+          "fact_type": "endpoint",
+          "question": "审计报告接口的路径是什么？",
+          "expected": "/api/v2/audit/report",
+          "hit": true
+        },
+        {
+          "fact_id": "F027",
+          "fact_type": "endpoint",
+          "question": "归档接口的路径是什么？",
+          "expected": "/api/v2/archive/batch",
+          "hit": true
+        },
+        {
+          "fact_id": "F028",
+          "fact_type": "storage",
+          "question": "对账明细表名是什么？",
+          "expected": "ods_order_detail_2026",
+          "hit": true
+        },
+        {
+          "fact_id": "F029",
+          "fact_type": "storage",
+          "question": "退款流水表名是什么？",
+          "expected": "dwd_refund_ledger",
+          "hit": true
+        },
+        {
+          "fact_id": "F030",
+          "fact_type": "storage",
+          "question": "差异汇总表名是什么？",
+          "expected": "dws_reconcile_diff",
+          "hit": true
+        },
+        {
+          "fact_id": "F031",
+          "fact_type": "storage",
+          "question": "订单状态维表名是什么？",
+          "expected": "dim_order_status",
+          "hit": true
+        },
+        {
+          "fact_id": "F032",
+          "fact_type": "storage",
+          "question": "批处理参数 reconcile.batch_size 的值是多少？",
+          "expected": "reconcile.batch_size=64",
+          "hit": true
+        },
+        {
+          "fact_id": "F033",
+          "fact_type": "metric",
+          "question": "本次对账差异率是多少？",
+          "expected": "0.37%",
+          "hit": true
+        },
+        {
+          "fact_id": "F034",
+          "fact_type": "metric",
+          "question": "退款成功率是多少？",
+          "expected": "99.62%",
+          "hit": true
+        },
+        {
+          "fact_id": "F035",
+          "fact_type": "metric",
+          "question": "平均对账耗时是多少秒？",
+          "expected": "42 秒",
+          "hit": true
+        },
+        {
+          "fact_id": "F036",
+          "fact_type": "metric",
+          "question": "库存回滚延迟是多少小时？",
+          "expected": "3.5 小时",
+          "hit": true
+        },
+        {
+          "fact_id": "F037",
+          "fact_type": "metric",
+          "question": "审计覆盖率是多少？",
+          "expected": "100%",
+          "hit": true
+        },
+        {
+          "fact_id": "F038",
+          "fact_type": "metric",
+          "question": "异常订单占比是多少？",
+          "expected": "1.8%",
+          "hit": true
+        }
+      ]
+    },
+    {
+      "method": "b",
+      "budget": 4000,
+      "token_count": 3948,
+      "full_tokens": 61252,
+      "reduction": 0.9355449617971658,
+      "accuracy": 1.0,
+      "baseline_accuracy": 1.0,
+      "accuracy_drop": 0.0,
+      "passed": true,
+      "retained_spans": 53,
+      "dropped_stats": {
+        "total_steps": 280,
+        "retained_steps": 53,
+        "dropped_steps_by_kind": {
+          "pending_plan": 2,
+          "recent_verbatim": 6,
+          "window_summary": 260
+        },
+        "dropped_chars_by_kind": {
+          "pending_plan": 520,
+          "recent_verbatim": 1735,
+          "window_summary": 18922
+        }
+      },
+      "elapsed_seconds": 0.01920401999996102,
+      "results": [
+        {
+          "fact_id": "F001",
+          "fact_type": "order_file",
+          "question": "订单 ORD-2026-00100 的原始文件路径是什么？",
+          "expected": "/data/orders/2026/batch-1/order_00100.csv",
+          "hit": true
+        },
+        {
+          "fact_id": "F002",
+          "fact_type": "order_file",
+          "question": "订单 ORD-2026-00101 的原始文件路径是什么？",
+          "expected": "/data/orders/2026/batch-2/order_00101.csv",
+          "hit": true
+        },
+        {
+          "fact_id": "F003",
+          "fact_type": "order_file",
+          "question": "订单 ORD-2026-00102 的原始文件路径是什么？",
+          "expected": "/data/orders/2026/batch-3/order_00102.csv",
+          "hit": true
+        },
+        {
+          "fact_id": "F004",
+          "fact_type": "order_file",
+          "question": "订单 ORD-2026-00103 的原始文件路径是什么？",
+          "expected": "/data/orders/2026/batch-4/order_00103.csv",
+          "hit": true
+        },
+        {
+          "fact_id": "F005",
+          "fact_type": "order_file",
+          "question": "订单 ORD-2026-00104 的原始文件路径是什么？",
+          "expected": "/data/orders/2026/batch-5/order_00104.csv",
+          "hit": true
+        },
+        {
+          "fact_id": "F006",
+          "fact_type": "order_file",
+          "question": "订单 ORD-2026-00105 的原始文件路径是什么？",
+          "expected": "/data/orders/2026/batch-6/order_00105.csv",
+          "hit": true
+        },
+        {
+          "fact_id": "F007",
+          "fact_type": "order_file",
+          "question": "订单 ORD-2026-00106 的原始文件路径是什么？",
+          "expected": "/data/orders/2026/batch-7/order_00106.csv",
+          "hit": true
+        },
+        {
+          "fact_id": "F008",
+          "fact_type": "order_file",
+          "question": "订单 ORD-2026-00107 的原始文件路径是什么？",
+          "expected": "/data/orders/2026/batch-8/order_00107.csv",
+          "hit": true
+        },
+        {
+          "fact_id": "F009",
+          "fact_type": "constraint",
+          "question": "单笔退款金额上限是多少？",
+          "expected": "1200 CNY",
+          "hit": true
+        },
+        {
+          "fact_id": "F010",
+          "fact_type": "constraint",
+          "question": "对账任务的截止时间是什么？",
+          "expected": "2026-12-31 18:00",
+          "hit": true
+        },
+        {
+          "fact_id": "F011",
+          "fact_type": "constraint",
+          "question": "失败重试次数上限是多少？",
+          "expected": "3 次",
+          "hit": true
+        },
+        {
+          "fact_id": "F012",
+          "fact_type": "constraint",
+          "question": "差异率告警阈值是多少？",
+          "expected": "0.5%",
+          "hit": true
+        },
+        {
+          "fact_id": "F013",
+          "fact_type": "constraint",
+          "question": "单批处理订单数量上限是多少？",
+          "expected": "500 笔",
+          "hit": true
+        },
+        {
+          "fact_id": "F014",
+          "fact_type": "constraint",
+          "question": "退款审批金额上限是多少？",
+          "expected": "8000 CNY",
+          "hit": true
+        },
+        {
+          "fact_id": "F015",
+          "fact_type": "constraint",
+          "question": "库存回滚窗口是多少小时？",
+          "expected": "24 小时",
+          "hit": true
+        },
+        {
+          "fact_id": "F016",
+          "fact_type": "constraint",
+          "question": "审计日志保留期限是多少天？",
+          "expected": "180 天",
+          "hit": true
+        },
+        {
+          "fact_id": "F017",
+          "fact_type": "error_code",
+          "question": "错误码 E4031 表示什么问题？",
+          "expected": "订单状态不一致",
+          "hit": true
+        },
+        {
+          "fact_id": "F018",
+          "fact_type": "error_code",
+          "question": "错误码 E5022 表示什么问题？",
+          "expected": "库存锁定失败",
+          "hit": true
+        },
+        {
+          "fact_id": "F019",
+          "fact_type": "error_code",
+          "question": "错误码 E4001 表示什么问题？",
+          "expected": "文件校验失败",
+          "hit": true
+        },
+        {
+          "fact_id": "F020",
+          "fact_type": "error_code",
+          "question": "错误码 E4090 表示什么问题？",
+          "expected": "重复退款",
+          "hit": true
+        },
+        {
+          "fact_id": "F021",
+          "fact_type": "error_code",
+          "question": "错误码 E5012 表示什么问题？",
+          "expected": "对账超时",
+          "hit": true
+        },
+        {
+          "fact_id": "F022",
+          "fact_type": "error_code",
+          "question": "错误码 E4033 表示什么问题？",
+          "expected": "权限不足",
+          "hit": true
+        },
+        {
+          "fact_id": "F023",
+          "fact_type": "endpoint",
+          "question": "对账接口的路径是什么？",
+          "expected": "/api/v2/orders/reconcile",
+          "hit": true
+        },
+        {
+          "fact_id": "F024",
+          "fact_type": "endpoint",
+          "question": "退款接口的路径是什么？",
+          "expected": "/api/v2/orders/refund",
+          "hit": true
+        },
+        {
+          "fact_id": "F025",
+          "fact_type": "endpoint",
+          "question": "库存回滚接口的路径是什么？",
+          "expected": "/api/v2/stock/rollback",
+          "hit": true
+        },
+        {
+          "fact_id": "F026",
+          "fact_type": "endpoint",
+          "question": "审计报告接口的路径是什么？",
+          "expected": "/api/v2/audit/report",
+          "hit": true
+        },
+        {
+          "fact_id": "F027",
+          "fact_type": "endpoint",
+          "question": "归档接口的路径是什么？",
+          "expected": "/api/v2/archive/batch",
+          "hit": true
+        },
+        {
+          "fact_id": "F028",
+          "fact_type": "storage",
+          "question": "对账明细表名是什么？",
+          "expected": "ods_order_detail_2026",
+          "hit": true
+        },
+        {
+          "fact_id": "F029",
+          "fact_type": "storage",
+          "question": "退款流水表名是什么？",
+          "expected": "dwd_refund_ledger",
+          "hit": true
+        },
+        {
+          "fact_id": "F030",
+          "fact_type": "storage",
+          "question": "差异汇总表名是什么？",
+          "expected": "dws_reconcile_diff",
+          "hit": true
+        },
+        {
+          "fact_id": "F031",
+          "fact_type": "storage",
+          "question": "订单状态维表名是什么？",
+          "expected": "dim_order_status",
+          "hit": true
+        },
+        {
+          "fact_id": "F032",
+          "fact_type": "storage",
+          "question": "批处理参数 reconcile.batch_size 的值是多少？",
+          "expected": "reconcile.batch_size=64",
+          "hit": true
+        },
+        {
+          "fact_id": "F033",
+          "fact_type": "metric",
+          "question": "本次对账差异率是多少？",
+          "expected": "0.37%",
+          "hit": true
+        },
+        {
+          "fact_id": "F034",
+          "fact_type": "metric",
+          "question": "退款成功率是多少？",
+          "expected": "99.62%",
+          "hit": true
+        },
+        {
+          "fact_id": "F035",
+          "fact_type": "metric",
+          "question": "平均对账耗时是多少秒？",
+          "expected": "42 秒",
+          "hit": true
+        },
+        {
+          "fact_id": "F036",
+          "fact_type": "metric",
+          "question": "库存回滚延迟是多少小时？",
+          "expected": "3.5 小时",
+          "hit": true
+        },
+        {
+          "fact_id": "F037",
+          "fact_type": "metric",
+          "question": "审计覆盖率是多少？",
+          "expected": "100%",
+          "hit": true
+        },
+        {
+          "fact_id": "F038",
+          "fact_type": "metric",
+          "question": "异常订单占比是多少？",
+          "expected": "1.8%",
+          "hit": true
+        }
+      ]
+    },
+    {
+      "method": "b",
+      "budget": 8000,
+      "token_count": 7938,
+      "full_tokens": 61252,
+      "reduction": 0.8704042316985567,
+      "accuracy": 1.0,
+      "baseline_accuracy": 1.0,
+      "accuracy_drop": 0.0,
+      "passed": true,
+      "retained_spans": 67,
+      "dropped_stats": {
+        "total_steps": 280,
+        "retained_steps": 103,
+        "dropped_steps_by_kind": {
+          "window_summary": 218
+        },
+        "dropped_chars_by_kind": {
+          "window_summary": 15865
+        }
+      },
+      "elapsed_seconds": 0.022438030000557774,
+      "results": [
+        {
+          "fact_id": "F001",
+          "fact_type": "order_file",
+          "question": "订单 ORD-2026-00100 的原始文件路径是什么？",
+          "expected": "/data/orders/2026/batch-1/order_00100.csv",
+          "hit": true
+        },
+        {
+          "fact_id": "F002",
+          "fact_type": "order_file",
+          "question": "订单 ORD-2026-00101 的原始文件路径是什么？",
+          "expected": "/data/orders/2026/batch-2/order_00101.csv",
+          "hit": true
+        },
+        {
+          "fact_id": "F003",
+          "fact_type": "order_file",
+          "question": "订单 ORD-2026-00102 的原始文件路径是什么？",
+          "expected": "/data/orders/2026/batch-3/order_00102.csv",
+          "hit": true
+        },
+        {
+          "fact_id": "F004",
+          "fact_type": "order_file",
+          "question": "订单 ORD-2026-00103 的原始文件路径是什么？",
+          "expected": "/data/orders/2026/batch-4/order_00103.csv",
+          "hit": true
+        },
+        {
+          "fact_id": "F005",
+          "fact_type": "order_file",
+          "question": "订单 ORD-2026-00104 的原始文件路径是什么？",
+          "expected": "/data/orders/2026/batch-5/order_00104.csv",
+          "hit": true
+        },
+        {
+          "fact_id": "F006",
+          "fact_type": "order_file",
+          "question": "订单 ORD-2026-00105 的原始文件路径是什么？",
+          "expected": "/data/orders/2026/batch-6/order_00105.csv",
+          "hit": true
+        },
+        {
+          "fact_id": "F007",
+          "fact_type": "order_file",
+          "question": "订单 ORD-2026-00106 的原始文件路径是什么？",
+          "expected": "/data/orders/2026/batch-7/order_00106.csv",
+          "hit": true
+        },
+        {
+          "fact_id": "F008",
+          "fact_type": "order_file",
+          "question": "订单 ORD-2026-00107 的原始文件路径是什么？",
+          "expected": "/data/orders/2026/batch-8/order_00107.csv",
+          "hit": true
+        },
+        {
+          "fact_id": "F009",
+          "fact_type": "constraint",
+          "question": "单笔退款金额上限是多少？",
+          "expected": "1200 CNY",
+          "hit": true
+        },
+        {
+          "fact_id": "F010",
+          "fact_type": "constraint",
+          "question": "对账任务的截止时间是什么？",
+          "expected": "2026-12-31 18:00",
+          "hit": true
+        },
+        {
+          "fact_id": "F011",
+          "fact_type": "constraint",
+          "question": "失败重试次数上限是多少？",
+          "expected": "3 次",
+          "hit": true
+        },
+        {
+          "fact_id": "F012",
+          "fact_type": "constraint",
+          "question": "差异率告警阈值是多少？",
+          "expected": "0.5%",
+          "hit": true
+        },
+        {
+          "fact_id": "F013",
+          "fact_type": "constraint",
+          "question": "单批处理订单数量上限是多少？",
+          "expected": "500 笔",
+          "hit": true
+        },
+        {
+          "fact_id": "F014",
+          "fact_type": "constraint",
+          "question": "退款审批金额上限是多少？",
+          "expected": "8000 CNY",
+          "hit": true
+        },
+        {
+          "fact_id": "F015",
+          "fact_type": "constraint",
+          "question": "库存回滚窗口是多少小时？",
+          "expected": "24 小时",
+          "hit": true
+        },
+        {
+          "fact_id": "F016",
+          "fact_type": "constraint",
+          "question": "审计日志保留期限是多少天？",
+          "expected": "180 天",
+          "hit": true
+        },
+        {
+          "fact_id": "F017",
+          "fact_type": "error_code",
+          "question": "错误码 E4031 表示什么问题？",
+          "expected": "订单状态不一致",
+          "hit": true
+        },
+        {
+          "fact_id": "F018",
+          "fact_type": "error_code",
+          "question": "错误码 E5022 表示什么问题？",
+          "expected": "库存锁定失败",
+          "hit": true
+        },
+        {
+          "fact_id": "F019",
+          "fact_type": "error_code",
+          "question": "错误码 E4001 表示什么问题？",
+          "expected": "文件校验失败",
+          "hit": true
+        },
+        {
+          "fact_id": "F020",
+          "fact_type": "error_code",
+          "question": "错误码 E4090 表示什么问题？",
+          "expected": "重复退款",
+          "hit": true
+        },
+        {
+          "fact_id": "F021",
+          "fact_type": "error_code",
+          "question": "错误码 E5012 表示什么问题？",
+          "expected": "对账超时",
+          "hit": true
+        },
+        {
+          "fact_id": "F022",
+          "fact_type": "error_code",
+          "question": "错误码 E4033 表示什么问题？",
+          "expected": "权限不足",
+          "hit": true
+        },
+        {
+          "fact_id": "F023",
+          "fact_type": "endpoint",
+          "question": "对账接口的路径是什么？",
+          "expected": "/api/v2/orders/reconcile",
+          "hit": true
+        },
+        {
+          "fact_id": "F024",
+          "fact_type": "endpoint",
+          "question": "退款接口的路径是什么？",
+          "expected": "/api/v2/orders/refund",
+          "hit": true
+        },
+        {
+          "fact_id": "F025",
+          "fact_type": "endpoint",
+          "question": "库存回滚接口的路径是什么？",
+          "expected": "/api/v2/stock/rollback",
+          "hit": true
+        },
+        {
+          "fact_id": "F026",
+          "fact_type": "endpoint",
+          "question": "审计报告接口的路径是什么？",
+          "expected": "/api/v2/audit/report",
+          "hit": true
+        },
+        {
+          "fact_id": "F027",
+          "fact_type": "endpoint",
+          "question": "归档接口的路径是什么？",
+          "expected": "/api/v2/archive/batch",
+          "hit": true
+        },
+        {
+          "fact_id": "F028",
+          "fact_type": "storage",
+          "question": "对账明细表名是什么？",
+          "expected": "ods_order_detail_2026",
+          "hit": true
+        },
+        {
+          "fact_id": "F029",
+          "fact_type": "storage",
+          "question": "退款流水表名是什么？",
+          "expected": "dwd_refund_ledger",
+          "hit": true
+        },
+        {
+          "fact_id": "F030",
+          "fact_type": "storage",
+          "question": "差异汇总表名是什么？",
+          "expected": "dws_reconcile_diff",
+          "hit": true
+        },
+        {
+          "fact_id": "F031",
+          "fact_type": "storage",
+          "question": "订单状态维表名是什么？",
+          "expected": "dim_order_status",
+          "hit": true
+        },
+        {
+          "fact_id": "F032",
+          "fact_type": "storage",
+          "question": "批处理参数 reconcile.batch_size 的值是多少？",
+          "expected": "reconcile.batch_size=64",
+          "hit": true
+        },
+        {
+          "fact_id": "F033",
+          "fact_type": "metric",
+          "question": "本次对账差异率是多少？",
+          "expected": "0.37%",
+          "hit": true
+        },
+        {
+          "fact_id": "F034",
+          "fact_type": "metric",
+          "question": "退款成功率是多少？",
+          "expected": "99.62%",
+          "hit": true
+        },
+        {
+          "fact_id": "F035",
+          "fact_type": "metric",
+          "question": "平均对账耗时是多少秒？",
+          "expected": "42 秒",
+          "hit": true
+        },
+        {
+          "fact_id": "F036",
+          "fact_type": "metric",
+          "question": "库存回滚延迟是多少小时？",
+          "expected": "3.5 小时",
+          "hit": true
+        },
+        {
+          "fact_id": "F037",
+          "fact_type": "metric",
+          "question": "审计覆盖率是多少？",
+          "expected": "100%",
+          "hit": true
+        },
+        {
+          "fact_id": "F038",
+          "fact_type": "metric",
+          "question": "异常订单占比是多少？",
+          "expected": "1.8%",
+          "hit": true
+        }
+      ]
+    }
+  ]
+}

@@ -2,7 +2,7 @@
 
 openJiuwen社区遵守开源社区[《贡献者公约》](https://contributor-covenant.org)v3.0中规定的行为守则，请参考[v3.0版本](https://www.contributor-covenant.org/zh-cn/version/3/0/code_of_conduct.html)。
 
-如需举报侮辱、骚扰或其他不可接受的行为，您可以发送邮件至[社区委员会](contact@openjiuwen.com)处理。
+如需举报侮辱、骚扰或其他不可接受的行为，您可以发送邮件至[社区委员会](mailto:contact@openjiuwen.com)处理。
 
 ## 贡献者们的承诺
 

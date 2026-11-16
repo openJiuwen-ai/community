@@ -1,5 +1,7 @@
 # openJiuwen Contribution Guide
 
+> **Platform note**: openJiuwen community repositories, issues, and pull requests are hosted on [AtomGit](https://atomgit.com/openJiuwen). All community links in this guide point to AtomGit.
+
 Welcome to the openJiuwen community! As an open-source Agent platform, openJiuwen is dedicated to providing flexible, powerful, and easy-to-use AI Agent development and runtime capabilities. We encourage developers to participate in the community in a variety of ways, including but not limited to code contributions, documentation improvements, issue reports, and feature suggestions.
 
 ## Table of Contents
@@ -313,7 +315,7 @@ git push -f origin myfeature
 - The purpose and background of the change
 - A detailed description of the change
 - Testing status
-- Related issue number (using the `#I12345` format)
+- Related issue number (using the `#82` format)
 
 ### 4. Link Issues and CI Gate Builds
 
@@ -326,7 +328,7 @@ git push -f origin myfeature
 
 #### Link an Issue to a PR
 
-When creating a PR or editing an existing PR, enter `#I` + the five-digit issue ID (for example, `#I12345`) in the description box to link the issue to the PR.
+When creating a PR or editing an existing PR, enter `#` + the issue number (for example, `#82`) in the description box to link the issue to the PR.
 
 #### Trigger the Code Gate
 

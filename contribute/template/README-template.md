@@ -21,7 +21,7 @@
 
 - [文档](docs/) — 完整使用文档
 - [示例](examples/) — 可运行示例工程
-- [变更记录](CHANGELOG.md) 或 [Release](https://gitcode.com/openJiuwen/{仓}/releases)
+- [变更记录](CHANGELOG.md) 或 [Release](https://atomgit.com/openJiuwen/{仓}/releases)
 
 > **注意：**
 > 相关文档链接必须指向仓内路径，不得直接跳转至官网。
@@ -90,4 +90,4 @@ cd {仓目录}
 
 ### 贡献指南
 
-欢迎参与 openJiuwen 社区贡献，请参见[贡献指南](CONTRIBUTING.md)或社区[贡献指南](https://gitcode.com/openJiuwen/community/blob/main/CONTRIBUTING_zh.md)。
+欢迎参与 openJiuwen 社区贡献，请参见[贡献指南](CONTRIBUTING.md)或社区[贡献指南](https://atomgit.com/openJiuwen/community/blob/main/CONTRIBUTING_zh.md)。

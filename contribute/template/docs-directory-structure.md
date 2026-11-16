@@ -13,7 +13,7 @@
 ├── LICENSE                    #
 ├── CHANGELOG.md               # 可选：变更日志；可通过 GitCode Release 管理，但 README 须有 Release 入口
 ├── CONTRIBUTING.md            # 贡献指南
-├── SECURITY.md                # 可选：安全策略；参考：https://gitcode.com/openJiuwen/skillhub/blob/develop/SECURITY.md
+├── SECURITY.md                # 可选：安全策略；参考：https://atomgit.com/openJiuwen/skillhub/blob/develop/SECURITY.md
 │
 ├── examples/                  # 可运行示例工程（clone 即跑）
 │   ├── README.md              # 示例总览（列出所有示例及用途）
@@ -22,7 +22,7 @@
 │       └── ...
 │
 ├── docs/                      # 用户文档（给用户读，Diátaxis 四类）
-│   ├── README.md              # 文档介绍与导航入口；参考：https://gitcode.com/openJiuwen/jiuwenswarm/blob/develop/docs/README.md
+│   ├── README.md              # 文档介绍与导航入口；参考：https://atomgit.com/openJiuwen/jiuwenswarm/blob/develop/docs/README.md
 │   │
 │   ├── zh/                    # 中文权威源
 │   │   ├── tutorial/          # 教程（"我想学"，数字前缀编号）

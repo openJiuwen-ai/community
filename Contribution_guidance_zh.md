@@ -11,13 +11,13 @@ openJiuwen 采用分层架构设计，覆盖 AI Agent 从开发、运行到部�
 - **Agent Distributed Runtime**: 提供分布式 Agent 运行时底座，支持低码、高码两种智能体部署模式，实现 Agent 一键发布部署与全生命周期统一管控。原生内置多租户资源隔离、服务弹性扩缩容、统一注册发现、跨集群高速互通等核心能力，全面支撑大规模多 Agent 集群稳定运行、业务规模化落地。
 - **Agent System Service**：AgentOS 底层基础系统服务，内置系统级安全隔离沙箱、全局统一记忆持久化存储、原生 CLI 系统工具、标准化 Agent 文件系统、跨Agent通信总线等底层核心能力，支撑全平台智能体安全运行、资源统一调度与多Agent高效协同。
 
-<img src="https://gitcode.com/openJiuwen/community/blob/main/images/openJiuwen能力架构图.png" alt="openJiuwen能力架构图" style="display: block; width: 100%; max-width: 1000px; height: auto; margin: 16px auto;" />
+<img src="./images/architecture-zh.png" alt="openJiuwen能力架构图" style="display: block; width: 100%; max-width: 1000px; height: auto; margin: 16px auto;" />
 
 ## 实现概览
 
 openJiuwen 采用模块化仓库设计，逐层构建 AI Agent 开发生态。各仓库可独立演进，也可组合使用，覆盖从智能体应用、技能分发、可视化编排、框架开发到服务化运行的完整链路。
 
-<img src="https://gitcode.com/openJiuwen/community/blob/main/images/openJiuwen实现架构图.jpg" alt="openJiuwen实现架构图" style="display: block; width: 100%; max-width: 1000px; height: auto; margin: 16px auto;" />
+<img src="./images/openJiuwen实现架构图.jpg" alt="openJiuwen实现架构图" style="display: block; width: 100%; max-width: 1000px; height: auto; margin: 16px auto;" />
 
 ### 代码仓总览
 

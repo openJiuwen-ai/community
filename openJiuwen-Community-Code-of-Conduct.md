@@ -2,7 +2,7 @@
 
 The openJiuwen community adheres to the Code of Conduct set forth in the open-source community [Contributor Covenant](https://contributor-covenant.org) v3.0. Please refer to [version 3.0](https://www.contributor-covenant.org/version/3/0/code_of_conduct.html).
 
-To report incidents of insult, harassment, or other unacceptable behavior, you may send an email to the [Community Committee](contact@openjiuwen.com) for handling.
+To report incidents of insult, harassment, or other unacceptable behavior, you may send an email to the [Community Committee](mailto:contact@openjiuwen.com) for handling.
 
 ## Our Pledge as Contributors
 

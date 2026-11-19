@@ -1,0 +1,34 @@
+name: sciencediscovery
+description: The sig-sciencediscovery team is responsible for manage sciencediscovery
+mailing_list: NA
+meeting_url: NA
+mature_level: startup
+maintainers:
+- atomgit_id: yi-zhang95
+  name: zhangyi
+  orgnization: Huawei
+  email: zhangyi@huawei.com
+- atomgit_id: hong-ye-zhou
+  name: zhouhongye
+  orgnization: Huawei
+  email: zhouhongye@huawei.com
+- atomgit_id: wang_cheng_zhao
+  name: wangchengzhao
+  orgnization: Huawei
+  email: wangchengzhao@huawei.com
+repositories:
+- repo:
+  - openJiuwen/sciencediscovery
+  committers:
+  - atomgit_id: zhang95
+    name: zhangyi
+    orgnization: Huawei
+    email: zhangyi@huawei.com
+  - atomgit_id: hong-ye-zhou
+    name: zhouhongye
+    orgnization: Huawei
+    email: zhouhongye@huawei.com
+  - atomgit_id: wang_cheng_zhao
+    name: wangchengzhao
+    orgnization: Huawei
+    email: wangchengzhao@huawei.com
